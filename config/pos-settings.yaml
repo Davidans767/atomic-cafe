@@ -1,0 +1,234 @@
+system:
+  name: בית קפה אטומי
+  business_id: '515678234'
+  vat_id: IL515678234
+  version: 4.2.1
+  language: he
+  timezone: Asia/Jerusalem
+  currency: ILS
+  last_updated: '2026-01-15T10:30:00+02:00'
+tax:
+  vat_rate: 0.17
+  vat_included_in_price: true
+  exempt_items:
+  - מים מינרליים
+  invoice_type: tax_receipt
+  auto_invoice: true
+printer:
+  model: Epson TM-T88VI
+  connection: USB
+  port: /dev/usb/lp0
+  paper_width_mm: 80
+  auto_cut: true
+  logo_enabled: true
+  logo_path: /pos/assets/logo-bw.png
+  encoding: CP862
+receipt:
+  header:
+  - בית קפה אטומי ☕
+  - דיזנגוף 99, תל אביב
+  - 'טל: 03-5551234'
+  - ע.מ. 515678234
+  footer:
+  - תודה שביקרתם!
+  - 'עקבו אחרינו: @atomiccafe_tlv'
+  - 'Wi-Fi: AtomicCafe2025'
+  show_cashier: true
+  show_table_number: true
+  show_order_number: true
+  barcode_type: QR
+  duplicate_for_merchant: false
+categories:
+- id: 1
+  name: קפה חם
+  color: '#6F4E37'
+  icon: coffee
+  items:
+  - אספרסו
+  - אספרסו כפול
+  - קפה הפוך
+  - קפוצ׳ינו
+  - לאטה
+- id: 2
+  name: קפה קר
+  color: '#87CEEB'
+  icon: ice-coffee
+  items:
+  - אייס לאטה
+  - אייס קפה
+  - קפה קר
+- id: 3
+  name: תה ושתייה חמה
+  color: '#90EE90'
+  icon: tea
+  items:
+  - תה ירוק
+  - תה נענע טרי
+  - תה קמומיל
+  - שוקו חם
+  - מאצ׳ה לאטה
+- id: 4
+  name: שתייה קרה
+  color: '#FFD700'
+  icon: cold-drink
+  items:
+  - שוקו קר
+  - לימונענע
+  - מיץ תפוזים טרי
+  - מיץ גזר
+  - סמוזי מנגו
+  - סמוזי תות בננה
+  - מים מינרליים
+  - סודה
+- id: 5
+  name: מאפים
+  color: '#DEB887'
+  icon: croissant
+  items:
+  - קרואסון חמאה
+  - קרואסון שוקולד
+  - קרואסון שקדים
+  - מאפין אוכמניות
+  - מאפין שוקולד צ׳יפס
+  - סיני קינמון
+  - רוגלך שוקולד
+- id: 6
+  name: בורקסים
+  color: '#F5DEB3'
+  icon: pastry
+  items:
+  - בורקס גבינה
+  - בורקס תפוא״ד
+  - בורקס פטריות
+- id: 7
+  name: עוגות
+  color: '#FF69B4'
+  icon: cake
+  items:
+  - עוגת גבינה
+  - עוגת שוקולד
+  - טירמיסו
+- id: 8
+  name: ארוחות
+  color: '#FF6347'
+  icon: plate
+  items:
+  - שקשוקה
+  - טוסט גבינה
+  - טוסט עם אבוקדו
+  - סנדוויץ׳ חלומי
+  - סנדוויץ׳ טונה
+  - סלט קיסר
+  - סלט יווני
+  - בייגל סלמון
+  - פוקי בול
+  - גרנולה עם יוגורט
+  - ארוחת בוקר זוגית
+  - ארוחת בוקר ישראלית
+payment_methods:
+  cash:
+    enabled: true
+    name: מזומן
+  credit_card:
+    enabled: true
+    name: אשראי
+    terminal: Verifone VX520
+    processor: שבא
+    min_amount: 10
+  bit:
+    enabled: true
+    name: ביט
+    phone: '0535551234'
+  apple_pay:
+    enabled: true
+    name: אפל פיי
+  google_pay:
+    enabled: false
+    name: גוגל פיי
+  cibus:
+    enabled: true
+    name: סיבוס
+    merchant_id: CB-8821
+  tenbis:
+    enabled: true
+    name: 10bis
+    restaurant_id: R-44521
+  wolt:
+    enabled: true
+    name: Wolt
+    restaurant_id: wolt-atomiccafe-tlv
+tables:
+  indoor:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  outdoor:
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  bar:
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+hours:
+  sunday:
+    open: 06:30
+    close: '22:00'
+  monday:
+    open: 06:30
+    close: '22:00'
+  tuesday:
+    open: 06:30
+    close: '22:00'
+  wednesday:
+    open: 06:30
+    close: '22:00'
+  thursday:
+    open: 06:30
+    close: '23:00'
+  friday:
+    open: 07:00
+    close: '15:00'
+  saturday:
+    open: null
+    close: null
+    note: סגור בשבת
+integrations:
+  accounting:
+    provider: חשבונית ירוקה
+    api_key_env: MORNING_API_KEY
+    auto_sync: true
+  inventory:
+    provider: CountX
+    sync_interval_hours: 24
+  delivery:
+    wolt:
+      enabled: true
+      auto_accept: false
+      prep_time_min: 15
+    tenbis:
+      enabled: true
+      auto_accept: true
+      prep_time_min: 20
+notifications:
+  low_stock_alert: true
+  daily_summary_email: manager@atomiccafe.co.il
+  weekly_report: true

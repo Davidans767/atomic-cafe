@@ -1,0 +1,1032 @@
+[
+  {
+    "timestamp": "2026-01-02T10:38:14+02:00",
+    "customer_id": "CUST-5444",
+    "items": [
+      {
+        "item": "סלט קיסר",
+        "quantity": 1,
+        "price": 52
+      }
+    ],
+    "total": 52,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-03T12:10:56+02:00",
+    "customer_id": "CUST-7870",
+    "items": [
+      {
+        "item": "סנדוויץ׳ טונה",
+        "quantity": 1,
+        "price": 42
+      },
+      {
+        "item": "קרואסון חמאה",
+        "quantity": 1,
+        "price": 18
+      }
+    ],
+    "total": 60,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-04T08:36:49+02:00",
+    "customer_id": "CUST-5067",
+    "items": [
+      {
+        "item": "סנדוויץ׳ חלומי",
+        "quantity": 2,
+        "price": 92
+      },
+      {
+        "item": "לאטה",
+        "quantity": 1,
+        "price": 18
+      },
+      {
+        "item": "קרואסון חמאה",
+        "quantity": 1,
+        "price": 18
+      }
+    ],
+    "total": 128,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-05T07:23:00+02:00",
+    "customer_id": "CUST-5067",
+    "items": [
+      {
+        "item": "קרואסון שוקולד",
+        "quantity": 1,
+        "price": 20
+      },
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      },
+      {
+        "item": "קרואסון שקדים",
+        "quantity": 2,
+        "price": 44
+      }
+    ],
+    "total": 80,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-05T10:52:25+02:00",
+    "customer_id": "CUST-7870",
+    "items": [
+      {
+        "item": "לאטה",
+        "quantity": 1,
+        "price": 18
+      },
+      {
+        "item": "אספרסו",
+        "quantity": 1,
+        "price": 12
+      }
+    ],
+    "total": 30,
+    "payment_method": "מזומן"
+  },
+  {
+    "timestamp": "2026-01-05T11:47:28+02:00",
+    "customer_id": "CUST-2956",
+    "items": [
+      {
+        "item": "שוקו חם",
+        "quantity": 1,
+        "price": 18
+      }
+    ],
+    "total": 18,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-05T13:12:41+02:00",
+    "customer_id": "CUST-1752",
+    "items": [
+      {
+        "item": "ארוחת בוקר ישראלית",
+        "quantity": 1,
+        "price": 68
+      }
+    ],
+    "total": 68,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-06T13:50:40+02:00",
+    "customer_id": "CUST-5625",
+    "items": [
+      {
+        "item": "טירמיסו",
+        "quantity": 1,
+        "price": 34
+      },
+      {
+        "item": "סנדוויץ׳ חלומי",
+        "quantity": 1,
+        "price": 46
+      }
+    ],
+    "total": 80,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-06T17:56:35+02:00",
+    "customer_id": "CUST-7870",
+    "items": [
+      {
+        "item": "סיני קינמון",
+        "quantity": 1,
+        "price": 24
+      },
+      {
+        "item": "מים מינרליים",
+        "quantity": 2,
+        "price": 20
+      }
+    ],
+    "total": 44,
+    "payment_method": "מזומן"
+  },
+  {
+    "timestamp": "2026-01-07T14:19:29+02:00",
+    "customer_id": "CUST-7870",
+    "items": [
+      {
+        "item": "שקשוקה",
+        "quantity": 1,
+        "price": 48
+      }
+    ],
+    "total": 48,
+    "payment_method": "מזומן"
+  },
+  {
+    "timestamp": "2026-01-08T17:14:43+02:00",
+    "customer_id": "CUST-6241",
+    "items": [
+      {
+        "item": "טוסט עם אבוקדו",
+        "quantity": 2,
+        "price": 88
+      },
+      {
+        "item": "עוגת שוקולד",
+        "quantity": 1,
+        "price": 30
+      }
+    ],
+    "total": 118,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-08T17:37:52+02:00",
+    "customer_id": "CUST-5067",
+    "items": [
+      {
+        "item": "אייס לאטה",
+        "quantity": 1,
+        "price": 22
+      },
+      {
+        "item": "אספרסו",
+        "quantity": 1,
+        "price": 12
+      },
+      {
+        "item": "קרואסון חמאה",
+        "quantity": 2,
+        "price": 36
+      }
+    ],
+    "total": 70,
+    "payment_method": "אפל פיי"
+  },
+  {
+    "timestamp": "2026-01-09T12:01:21+02:00",
+    "customer_id": "CUST-7108",
+    "items": [
+      {
+        "item": "טוסט גבינה",
+        "quantity": 2,
+        "price": 76
+      },
+      {
+        "item": "עוגת שוקולד",
+        "quantity": 2,
+        "price": 60
+      }
+    ],
+    "total": 136,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-09T13:09:39+02:00",
+    "customer_id": "CUST-6362",
+    "items": [
+      {
+        "item": "תה נענע טרי",
+        "quantity": 2,
+        "price": 32
+      },
+      {
+        "item": "עוגת שוקולד",
+        "quantity": 1,
+        "price": 30
+      }
+    ],
+    "total": 62,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-09T14:29:16+02:00",
+    "customer_id": "CUST-5067",
+    "items": [
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      },
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      }
+    ],
+    "total": 32,
+    "payment_method": "אפל פיי"
+  },
+  {
+    "timestamp": "2026-01-10T08:25:57+02:00",
+    "customer_id": "CUST-7870",
+    "items": [
+      {
+        "item": "סנדוויץ׳ טונה",
+        "quantity": 1,
+        "price": 42
+      },
+      {
+        "item": "עוגת שוקולד",
+        "quantity": 1,
+        "price": 30
+      }
+    ],
+    "total": 72,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-11T09:40:56+02:00",
+    "customer_id": "CUST-7044",
+    "items": [
+      {
+        "item": "קרואסון שקדים",
+        "quantity": 2,
+        "price": 44
+      },
+      {
+        "item": "שוקו קר",
+        "quantity": 1,
+        "price": 20
+      },
+      {
+        "item": "לאטה",
+        "quantity": 1,
+        "price": 18
+      }
+    ],
+    "total": 82,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-11T09:58:51+02:00",
+    "customer_id": "CUST-2956",
+    "items": [
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      }
+    ],
+    "total": 16,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-11T11:33:29+02:00",
+    "customer_id": "CUST-1579",
+    "items": [
+      {
+        "item": "קרואסון שוקולד",
+        "quantity": 1,
+        "price": 20
+      },
+      {
+        "item": "שוקו חם",
+        "quantity": 1,
+        "price": 18
+      },
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      }
+    ],
+    "total": 54,
+    "payment_method": "אפל פיי"
+  },
+  {
+    "timestamp": "2026-01-11T17:05:14+02:00",
+    "customer_id": "CUST-5067",
+    "items": [
+      {
+        "item": "סנדוויץ׳ חלומי",
+        "quantity": 1,
+        "price": 46
+      },
+      {
+        "item": "קרואסון חמאה",
+        "quantity": 1,
+        "price": 18
+      }
+    ],
+    "total": 64,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-13T12:30:34+02:00",
+    "customer_id": "CUST-9225",
+    "items": [
+      {
+        "item": "מיץ תפוזים טרי",
+        "quantity": 1,
+        "price": 24
+      },
+      {
+        "item": "קפוצ׳ינו",
+        "quantity": 1,
+        "price": 17
+      },
+      {
+        "item": "קפוצ׳ינו",
+        "quantity": 2,
+        "price": 34
+      },
+      {
+        "item": "בורקס גבינה",
+        "quantity": 1,
+        "price": 18
+      }
+    ],
+    "total": 93,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-14T10:52:40+02:00",
+    "customer_id": "CUST-5067",
+    "items": [
+      {
+        "item": "מאפין שוקולד צ׳יפס",
+        "quantity": 1,
+        "price": 22
+      },
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      }
+    ],
+    "total": 38,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-14T15:46:59+02:00",
+    "customer_id": "CUST-2276",
+    "items": [
+      {
+        "item": "אייס לאטה",
+        "quantity": 1,
+        "price": 22
+      },
+      {
+        "item": "תה נענע טרי",
+        "quantity": 1,
+        "price": 16
+      }
+    ],
+    "total": 38,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-15T09:02:39+02:00",
+    "customer_id": "CUST-5444",
+    "items": [
+      {
+        "item": "מיץ תפוזים טרי",
+        "quantity": 2,
+        "price": 48
+      },
+      {
+        "item": "לימונענע",
+        "quantity": 1,
+        "price": 22
+      }
+    ],
+    "total": 70,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-15T09:05:57+02:00",
+    "customer_id": "CUST-1130",
+    "items": [
+      {
+        "item": "אספרסו",
+        "quantity": 1,
+        "price": 12
+      },
+      {
+        "item": "קפוצ׳ינו",
+        "quantity": 1,
+        "price": 17
+      }
+    ],
+    "total": 29,
+    "payment_method": "אפל פיי"
+  },
+  {
+    "timestamp": "2026-01-15T10:58:52+02:00",
+    "customer_id": "CUST-5444",
+    "items": [
+      {
+        "item": "טוסט עם אבוקדו",
+        "quantity": 1,
+        "price": 44
+      },
+      {
+        "item": "מיץ גזר",
+        "quantity": 1,
+        "price": 22
+      },
+      {
+        "item": "אייס לאטה",
+        "quantity": 1,
+        "price": 22
+      }
+    ],
+    "total": 88,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-17T07:43:19+02:00",
+    "customer_id": "CUST-4678",
+    "items": [
+      {
+        "item": "תה קמומיל",
+        "quantity": 1,
+        "price": 14
+      }
+    ],
+    "total": 14,
+    "payment_method": "מזומן"
+  },
+  {
+    "timestamp": "2026-01-17T12:49:37+02:00",
+    "customer_id": "CUST-7819",
+    "items": [
+      {
+        "item": "עוגת גבינה",
+        "quantity": 1,
+        "price": 32
+      }
+    ],
+    "total": 32,
+    "payment_method": "אפל פיי"
+  },
+  {
+    "timestamp": "2026-01-18T10:06:29+02:00",
+    "customer_id": "CUST-4678",
+    "items": [
+      {
+        "item": "אספרסו כפול",
+        "quantity": 1,
+        "price": 14
+      }
+    ],
+    "total": 14,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-18T13:48:37+02:00",
+    "customer_id": "CUST-1579",
+    "items": [
+      {
+        "item": "שקשוקה",
+        "quantity": 1,
+        "price": 48
+      },
+      {
+        "item": "סמוזי מנגו",
+        "quantity": 2,
+        "price": 56
+      },
+      {
+        "item": "לימונענע",
+        "quantity": 2,
+        "price": 44
+      }
+    ],
+    "total": 148,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-19T07:11:38+02:00",
+    "customer_id": "CUST-6272",
+    "items": [
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      },
+      {
+        "item": "אייס קפה",
+        "quantity": 1,
+        "price": 20
+      }
+    ],
+    "total": 36,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-19T10:21:46+02:00",
+    "customer_id": "CUST-6090",
+    "items": [
+      {
+        "item": "בורקס תפוא״ד",
+        "quantity": 2,
+        "price": 32
+      },
+      {
+        "item": "עוגת גבינה",
+        "quantity": 1,
+        "price": 32
+      }
+    ],
+    "total": 64,
+    "payment_method": "אפל פיי"
+  },
+  {
+    "timestamp": "2026-01-19T15:22:22+02:00",
+    "customer_id": "CUST-5067",
+    "items": [
+      {
+        "item": "עוגת שוקולד",
+        "quantity": 1,
+        "price": 30
+      },
+      {
+        "item": "תה נענע טרי",
+        "quantity": 1,
+        "price": 16
+      },
+      {
+        "item": "קרואסון חמאה",
+        "quantity": 2,
+        "price": 36
+      }
+    ],
+    "total": 82,
+    "payment_method": "אפל פיי"
+  },
+  {
+    "timestamp": "2026-01-21T09:38:51+02:00",
+    "customer_id": "CUST-5067",
+    "items": [
+      {
+        "item": "בייגל סלמון",
+        "quantity": 1,
+        "price": 54
+      },
+      {
+        "item": "מאפין אוכמניות",
+        "quantity": 1,
+        "price": 22
+      }
+    ],
+    "total": 76,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-21T12:55:17+02:00",
+    "customer_id": "CUST-5067",
+    "items": [
+      {
+        "item": "מיץ גזר",
+        "quantity": 1,
+        "price": 22
+      }
+    ],
+    "total": 22,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-23T07:27:41+02:00",
+    "customer_id": "CUST-6241",
+    "items": [
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      }
+    ],
+    "total": 16,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-23T11:05:02+02:00",
+    "customer_id": "CUST-5777",
+    "items": [
+      {
+        "item": "שוקו חם",
+        "quantity": 2,
+        "price": 36
+      },
+      {
+        "item": "מאצ׳ה לאטה",
+        "quantity": 1,
+        "price": 24
+      },
+      {
+        "item": "קרואסון חמאה",
+        "quantity": 1,
+        "price": 18
+      }
+    ],
+    "total": 78,
+    "payment_method": "מזומן"
+  },
+  {
+    "timestamp": "2026-01-23T12:20:28+02:00",
+    "customer_id": "CUST-7870",
+    "items": [
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      },
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      },
+      {
+        "item": "שוקו קר",
+        "quantity": 1,
+        "price": 20
+      },
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      }
+    ],
+    "total": 68,
+    "payment_method": "אפל פיי"
+  },
+  {
+    "timestamp": "2026-01-23T16:02:13+02:00",
+    "customer_id": "CUST-2956",
+    "items": [
+      {
+        "item": "מאפין אוכמניות",
+        "quantity": 2,
+        "price": 44
+      }
+    ],
+    "total": 44,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-24T13:31:01+02:00",
+    "customer_id": "CUST-6241",
+    "items": [
+      {
+        "item": "קפוצ׳ינו",
+        "quantity": 1,
+        "price": 17
+      }
+    ],
+    "total": 17,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-24T16:15:29+02:00",
+    "customer_id": "CUST-5444",
+    "items": [
+      {
+        "item": "בורקס גבינה",
+        "quantity": 1,
+        "price": 18
+      },
+      {
+        "item": "סמוזי תות בננה",
+        "quantity": 1,
+        "price": 28
+      },
+      {
+        "item": "קפה הפוך",
+        "quantity": 2,
+        "price": 32
+      },
+      {
+        "item": "אספרסו",
+        "quantity": 1,
+        "price": 12
+      }
+    ],
+    "total": 90,
+    "payment_method": "מזומן"
+  },
+  {
+    "timestamp": "2026-01-25T08:54:33+02:00",
+    "customer_id": "CUST-4678",
+    "items": [
+      {
+        "item": "בייגל סלמון",
+        "quantity": 1,
+        "price": 54
+      },
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      }
+    ],
+    "total": 70,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-25T14:11:10+02:00",
+    "customer_id": "CUST-1130",
+    "items": [
+      {
+        "item": "אספרסו",
+        "quantity": 1,
+        "price": 12
+      }
+    ],
+    "total": 12,
+    "payment_method": "מזומן"
+  },
+  {
+    "timestamp": "2026-01-25T15:56:36+02:00",
+    "customer_id": "CUST-6272",
+    "items": [
+      {
+        "item": "קפוצ׳ינו",
+        "quantity": 1,
+        "price": 17
+      },
+      {
+        "item": "אספרסו",
+        "quantity": 1,
+        "price": 12
+      },
+      {
+        "item": "קפה קר",
+        "quantity": 1,
+        "price": 18
+      }
+    ],
+    "total": 47,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-26T07:48:14+02:00",
+    "customer_id": "CUST-1130",
+    "items": [
+      {
+        "item": "סלט יווני",
+        "quantity": 2,
+        "price": 96
+      },
+      {
+        "item": "קפוצ׳ינו",
+        "quantity": 1,
+        "price": 17
+      }
+    ],
+    "total": 113,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-26T08:46:00+02:00",
+    "customer_id": "CUST-5444",
+    "items": [
+      {
+        "item": "גרנולה עם יוגורט",
+        "quantity": 2,
+        "price": 76
+      },
+      {
+        "item": "מיץ תפוזים טרי",
+        "quantity": 1,
+        "price": 24
+      },
+      {
+        "item": "סמוזי תות בננה",
+        "quantity": 1,
+        "price": 28
+      }
+    ],
+    "total": 128,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-26T12:58:37+02:00",
+    "customer_id": "CUST-7819",
+    "items": [
+      {
+        "item": "סודה",
+        "quantity": 1,
+        "price": 12
+      },
+      {
+        "item": "קפוצ׳ינו",
+        "quantity": 2,
+        "price": 34
+      },
+      {
+        "item": "סנדוויץ׳ חלומי",
+        "quantity": 1,
+        "price": 46
+      },
+      {
+        "item": "אייס לאטה",
+        "quantity": 1,
+        "price": 22
+      }
+    ],
+    "total": 114,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-26T16:25:42+02:00",
+    "customer_id": "CUST-4678",
+    "items": [
+      {
+        "item": "עוגת גבינה",
+        "quantity": 2,
+        "price": 64
+      },
+      {
+        "item": "לאטה",
+        "quantity": 1,
+        "price": 18
+      },
+      {
+        "item": "תה נענע טרי",
+        "quantity": 1,
+        "price": 16
+      }
+    ],
+    "total": 98,
+    "payment_method": "מזומן"
+  },
+  {
+    "timestamp": "2026-01-26T16:41:48+02:00",
+    "customer_id": "CUST-7819",
+    "items": [
+      {
+        "item": "בורקס פטריות",
+        "quantity": 1,
+        "price": 18
+      },
+      {
+        "item": "אספרסו",
+        "quantity": 1,
+        "price": 12
+      }
+    ],
+    "total": 30,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-27T07:21:00+02:00",
+    "customer_id": "CUST-1862",
+    "items": [
+      {
+        "item": "מאפין שוקולד צ׳יפס",
+        "quantity": 1,
+        "price": 22
+      },
+      {
+        "item": "סמוזי מנגו",
+        "quantity": 1,
+        "price": 28
+      },
+      {
+        "item": "לימונענע",
+        "quantity": 1,
+        "price": 22
+      }
+    ],
+    "total": 72,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-27T12:35:41+02:00",
+    "customer_id": "CUST-7108",
+    "items": [
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      }
+    ],
+    "total": 16,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-27T13:04:37+02:00",
+    "customer_id": "CUST-3938",
+    "items": [
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      },
+      {
+        "item": "טוסט גבינה",
+        "quantity": 2,
+        "price": 76
+      }
+    ],
+    "total": 92,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-27T14:32:25+02:00",
+    "customer_id": "CUST-6272",
+    "items": [
+      {
+        "item": "לאטה",
+        "quantity": 1,
+        "price": 18
+      },
+      {
+        "item": "שוקו קר",
+        "quantity": 2,
+        "price": 40
+      }
+    ],
+    "total": 58,
+    "payment_method": "ביט"
+  },
+  {
+    "timestamp": "2026-01-28T08:19:50+02:00",
+    "customer_id": "CUST-5444",
+    "items": [
+      {
+        "item": "לאטה",
+        "quantity": 1,
+        "price": 18
+      },
+      {
+        "item": "תה נענע טרי",
+        "quantity": 1,
+        "price": 16
+      },
+      {
+        "item": "תה ירוק",
+        "quantity": 1,
+        "price": 14
+      }
+    ],
+    "total": 48,
+    "payment_method": "אשראי"
+  },
+  {
+    "timestamp": "2026-01-28T12:29:16+02:00",
+    "customer_id": "CUST-5067",
+    "items": [
+      {
+        "item": "שקשוקה",
+        "quantity": 1,
+        "price": 48
+      },
+      {
+        "item": "קפה הפוך",
+        "quantity": 1,
+        "price": 16
+      }
+    ],
+    "total": 64,
+    "payment_method": "מזומן"
+  }
+]

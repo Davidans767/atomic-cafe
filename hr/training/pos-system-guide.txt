@@ -1,0 +1,96 @@
+ATOMIC CAFE — POS SYSTEM GUIDE
+================================
+System: Square Terminal + iPad (Square for Restaurants)
+Support PIN: 7742 (for manager-level actions only)
+
+1. LOGGING IN
+   - Tap your name on the clock-in screen
+   - Enter your 4-digit PIN
+   - Select your role if prompted (cashier / barista / shift lead)
+   - Clock in — your shift starts now
+
+2. TAKING AN ORDER
+   - Tap "New Order"
+   - Select category: Hot Drinks / Cold Drinks / Food / Extras
+   - Tap the item → choose size (S/M/L) → add modifiers:
+     - Milk type: regular, oat (+2), almond (+2), soy (+2)
+     - Shots: extra shot (+5), decaf (no charge)
+     - Syrup: vanilla, caramel, hazelnut (+3 each)
+     - Temperature: extra hot, lukewarm
+   - Tap "Add to Order"
+   - Repeat for additional items
+   - Ask: "Anything else?" → then tap "Charge"
+
+3. PAYMENT
+   - Cash: enter amount received, system calculates change. Put bills in
+     drawer, coins in tray. Hand change back first, then receipt.
+   - Credit/Debit: customer taps or inserts card on Square Terminal.
+     Wait for approval beep. DO NOT touch the terminal during tap.
+   - Bit/PayBox: select "Other Payment" → "Bit" → confirm amount →
+     customer sends via app → verify notification → mark as paid
+   - Split payment: tap "Split" → choose method (equal / by item / custom
+     amount) → process each part separately
+
+4. MODIFYING AN ORDER (BEFORE PAYMENT)
+   - Tap the item in the order list → "Edit" or "Remove"
+   - To change quantity: tap quantity number → adjust
+   - To add a discount: tap item → "Discount" → choose preset or enter
+     custom (manager PIN needed for >20%)
+
+5. VOIDING A TRANSACTION (AFTER PAYMENT)
+   - Find the transaction: tap ≡ menu → "Transactions" → find by time or
+     amount
+   - Tap the transaction → "Issue Refund"
+   - Select items to refund (or "Full Refund")
+   - Enter reason (required): wrong order / customer complaint / duplicate
+     charge / other
+   - **Manager PIN required** for all refunds
+   - Cash refunds: take cash from drawer, have customer sign refund slip
+   - Card refunds: processed automatically, 3-5 business days to appear
+
+6. COMMON ERRORS & FIXES
+   - "Card declined": ask customer to try again / different card. Never
+     announce "declined" loudly — say "it didn't go through, want to try
+     another method?"
+   - Terminal frozen: hold power button 5 sec → release → wait for reboot
+     (about 30 sec). Order is saved.
+   - Printer not printing: check paper roll (spare rolls under counter).
+     Pull paper tab to feed. If still stuck, power cycle printer (switch
+     on back).
+   - Wrong item rung up (already paid): void and re-ring. Don't just
+     "add the difference."
+   - Duplicate charge: void the duplicate immediately. If customer already
+     left and calls back, process refund via Transactions.
+   - iPad disconnected from terminal: check WiFi (network: AtomicCafe_POS,
+     password on router sticker). Restart iPad WiFi. If persists, restart
+     both devices.
+   - "Shift not started" error: you forgot to clock in. Clock in first,
+     then re-enter the order.
+
+7. END-OF-DAY CLOSE
+   - Tap ≡ menu → "Close Register"
+   - Count cash in drawer → enter amount
+   - System shows expected vs. actual → note any variance
+   - Print Z-report (daily summary)
+   - Place Z-report + cash in envelope → label with date + your name →
+     drop in safe
+   - Variance over ₪20: notify shift manager, note in incident log
+
+8. TIPS
+   - Tips are processed through the system (customer adds on terminal)
+   - Cash tips go in shared tip jar
+   - Tip pool split: calculated weekly by shift manager based on hours worked
+   - DO NOT adjust tips after the fact — that's manager-only
+
+9. DISCOUNTS & PROMOS
+   - Employee discount (25%): select "Employee Discount" preset, no PIN needed
+   - Friends & family (15%): manager approval + PIN
+   - Happy hour (auto): system applies 20% off between 14:00-16:00 on
+     weekdays (pre-configured)
+   - Loyalty: 10th drink free — scan loyalty card, system deducts automatically
+   - Custom discount: manager PIN required, must note reason
+
+TROUBLESHOOTING CONTACTS
+- Square support: 1-800-XXX-XXXX (English) or in-app chat
+- WiFi issues: restart router (under counter, gray box, power cycle)
+- Hardware failure: call Noa (shift manager) → she contacts Square

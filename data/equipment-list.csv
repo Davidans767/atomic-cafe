@@ -1,0 +1,26 @@
+item,brand,model,purchase_date,price_ils,warranty_until,condition,notes
+Espresso Machine,La Marzocco,Linea Mini,2023-06-15,42000,2026-06-15,Good,Serviced Dec 2025
+Espresso Machine (backup),Rancilio,Silvia Pro X,2024-01-20,8500,2027-01-20,Good,Rarely used
+Grinder — main,Mahlkönig,E65S GBW,2023-06-15,12000,2026-06-15,Good,Burrs replaced Oct 2025
+Grinder — secondary,Eureka,Mignon Specialita,2024-03-10,3200,2026-03-10,Fair,Needs burr replacement soon
+Grinder — filter,Baratza,Forte BG,2023-09-01,4500,2025-09-01,Good,Warranty expired
+Fridge — undercounter 1,Liebherr,FKUv 1610,2022-11-01,6800,2025-11-01,Good,Seal replaced Aug 2025
+Fridge — undercounter 2,Liebherr,FKUv 1610,2022-11-01,6800,2025-11-01,Good,
+Fridge — display (pastries),True,TDM-R-48,2023-01-15,15000,2028-01-15,Good,LED light replaced
+Freezer — chest,Electra,EL-300,2021-08-20,3200,2024-08-20,Fair,"Warranty expired, runs loud"
+Dishwasher — commercial,Hobart,LXEH,2023-06-15,18000,2028-06-15,Good,Quarterly service contract
+AC unit — main floor,Tadiran,Alpha Pro 35,2023-06-01,8500,2028-06-01,Good,Filter cleaned monthly
+AC unit — back/kitchen,Electra,Platinum 25,2023-06-01,5500,2028-06-01,Good,
+Water filtration system,BWT,Bestmax Premium M,2024-07-01,2800,N/A,Good,"Filter replaced every 6 months, next: Jul 2026"
+POS iPad,Apple,iPad 10th gen,2023-06-15,2400,2024-06-15,Good,Running Square app
+POS Terminal,Square,Terminal,2023-06-15,1800,2025-06-15,Good,
+Receipt printer,Star Micronics,TSP143IV,2023-06-15,1600,2025-06-15,Good,"Thermal, paper rolls from Office Depot"
+Blender,Vitamix,Quiet One,2024-02-01,6500,2027-02-01,Good,For smoothies & frappes
+Hot water boiler,Bravilor,HWA 6,2023-06-15,3800,2026-06-15,Good,Descaled quarterly
+Table — 2-seat (x6),IKEA,LISABO,2023-05-20,4200,N/A,Good,Price for all 6
+Table — 4-seat (x3),IKEA,MÖRBYLÅNGA,2023-05-20,5400,N/A,Good,"Price for all 3, one has wobble"
+Chair — cafe (x18),TON,Chair 14,2023-05-20,16200,N/A,Fair,3 chairs need re-tightening
+Bar stool (x5),TON,Barista stool,2023-05-20,7500,N/A,Good,Price for all 5
+Outdoor table (x2),Fermob,Bistro,2023-06-01,4800,N/A,Good,"Price for both, stored in winter"
+Outdoor chair (x4),Fermob,Bistro,2023-06-01,3600,N/A,Fair,"Some paint chips, price for all 4"
+Security camera system,Hikvision,DS-7604NI-K1/4P,2023-06-10,4500,2026-06-10,Good,"4 cameras, NVR under counter, 30-day storage"

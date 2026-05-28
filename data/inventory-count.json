@@ -1,0 +1,443 @@
+[
+  {
+    "item": "פולי קפה - ברזיל סנטוס",
+    "category": "קפה",
+    "quantity": 8.5,
+    "unit": "ק״ג",
+    "min_threshold": 5,
+    "last_counted": "2026-01-28",
+    "location": "מחסן אחורי - מדף עליון"
+  },
+  {
+    "item": "פולי קפה - אתיופיה ירגשף",
+    "category": "קפה",
+    "quantity": 3.2,
+    "unit": "ק״ג",
+    "min_threshold": 3,
+    "last_counted": "2026-01-28",
+    "location": "מחסן אחורי - מדף עליון"
+  },
+  {
+    "item": "פולי קפה - קולומביה",
+    "category": "קפה",
+    "quantity": 6.0,
+    "unit": "ק״ג",
+    "min_threshold": 4,
+    "last_counted": "2026-01-28",
+    "location": "מחסן אחורי - מדף עליון"
+  },
+  {
+    "item": "פולי דקאפ",
+    "category": "קפה",
+    "quantity": 2.1,
+    "unit": "ק״ג",
+    "min_threshold": 2,
+    "last_counted": "2026-01-28",
+    "location": "מחסן אחורי - מדף עליון"
+  },
+  {
+    "item": "חלב 3%",
+    "category": "חלב",
+    "quantity": 24,
+    "unit": "ליטר",
+    "min_threshold": 15,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ראשי"
+  },
+  {
+    "item": "חלב שקדים",
+    "category": "חלב",
+    "quantity": 8,
+    "unit": "ליטר",
+    "min_threshold": 5,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ראשי"
+  },
+  {
+    "item": "חלב שיבולת שועל",
+    "category": "חלב",
+    "quantity": 6,
+    "unit": "ליטר",
+    "min_threshold": 4,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ראשי"
+  },
+  {
+    "item": "חלב סויה",
+    "category": "חלב",
+    "quantity": 4,
+    "unit": "ליטר",
+    "min_threshold": 3,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ראשי"
+  },
+  {
+    "item": "קצפת",
+    "category": "חלב",
+    "quantity": 3,
+    "unit": "ליטר",
+    "min_threshold": 2,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ראשי"
+  },
+  {
+    "item": "סוכר לבן",
+    "category": "אספקה",
+    "quantity": 12,
+    "unit": "ק״ג",
+    "min_threshold": 5,
+    "last_counted": "2026-01-27",
+    "location": "מחסן אחורי - מדף תחתון"
+  },
+  {
+    "item": "סוכר חום",
+    "category": "אספקה",
+    "quantity": 4.5,
+    "unit": "ק״ג",
+    "min_threshold": 3,
+    "last_counted": "2026-01-27",
+    "location": "מחסן אחורי - מדף תחתון"
+  },
+  {
+    "item": "ממתיקי סטיביה",
+    "category": "אספקה",
+    "quantity": 200,
+    "unit": "יחידות",
+    "min_threshold": 100,
+    "last_counted": "2026-01-27",
+    "location": "דלפק שירות"
+  },
+  {
+    "item": "סירופ וניל",
+    "category": "סירופים",
+    "quantity": 3,
+    "unit": "בקבוקים",
+    "min_threshold": 2,
+    "last_counted": "2026-01-27",
+    "location": "תחנת קפה"
+  },
+  {
+    "item": "סירופ קרמל",
+    "category": "סירופים",
+    "quantity": 2,
+    "unit": "בקבוקים",
+    "min_threshold": 2,
+    "last_counted": "2026-01-27",
+    "location": "תחנת קפה"
+  },
+  {
+    "item": "סירופ אגוז לוז",
+    "category": "סירופים",
+    "quantity": 4,
+    "unit": "בקבוקים",
+    "min_threshold": 2,
+    "last_counted": "2026-01-27",
+    "location": "תחנת קפה"
+  },
+  {
+    "item": "אבקת מאצ׳ה",
+    "category": "תה",
+    "quantity": 0.8,
+    "unit": "ק״ג",
+    "min_threshold": 0.5,
+    "last_counted": "2026-01-28",
+    "location": "תחנת קפה"
+  },
+  {
+    "item": "תה ירוק שקיקים",
+    "category": "תה",
+    "quantity": 120,
+    "unit": "שקיקים",
+    "min_threshold": 50,
+    "last_counted": "2026-01-28",
+    "location": "מחסן אחורי"
+  },
+  {
+    "item": "נענע טרייה",
+    "category": "תה",
+    "quantity": 1.2,
+    "unit": "ק״ג",
+    "min_threshold": 0.5,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ראשי"
+  },
+  {
+    "item": "קמומיל שקיקים",
+    "category": "תה",
+    "quantity": 80,
+    "unit": "שקיקים",
+    "min_threshold": 40,
+    "last_counted": "2026-01-28",
+    "location": "מחסן אחורי"
+  },
+  {
+    "item": "שוקולד לשתייה",
+    "category": "אספקה",
+    "quantity": 3.5,
+    "unit": "ק״ג",
+    "min_threshold": 2,
+    "last_counted": "2026-01-27",
+    "location": "תחנת קפה"
+  },
+  {
+    "item": "קרואסון חמאה (קפוא)",
+    "category": "מאפים",
+    "quantity": 45,
+    "unit": "יחידות",
+    "min_threshold": 20,
+    "last_counted": "2026-01-28",
+    "location": "מקפיא"
+  },
+  {
+    "item": "קרואסון שוקולד (קפוא)",
+    "category": "מאפים",
+    "quantity": 30,
+    "unit": "יחידות",
+    "min_threshold": 15,
+    "last_counted": "2026-01-28",
+    "location": "מקפיא"
+  },
+  {
+    "item": "קרואסון שקדים (קפוא)",
+    "category": "מאפים",
+    "quantity": 18,
+    "unit": "יחידות",
+    "min_threshold": 10,
+    "last_counted": "2026-01-28",
+    "location": "מקפיא"
+  },
+  {
+    "item": "בצק בורקס (קפוא)",
+    "category": "מאפים",
+    "quantity": 25,
+    "unit": "יחידות",
+    "min_threshold": 15,
+    "last_counted": "2026-01-28",
+    "location": "מקפיא"
+  },
+  {
+    "item": "מאפינים (קפוא)",
+    "category": "מאפים",
+    "quantity": 36,
+    "unit": "יחידות",
+    "min_threshold": 20,
+    "last_counted": "2026-01-28",
+    "location": "מקפיא"
+  },
+  {
+    "item": "עוגת גבינה (שלמה)",
+    "category": "עוגות",
+    "quantity": 2,
+    "unit": "יחידות",
+    "min_threshold": 1,
+    "last_counted": "2026-01-28",
+    "location": "ויטרינה קירור"
+  },
+  {
+    "item": "עוגת שוקולד (שלמה)",
+    "category": "עוגות",
+    "quantity": 1,
+    "unit": "יחידות",
+    "min_threshold": 1,
+    "last_counted": "2026-01-28",
+    "location": "ויטרינה קירור"
+  },
+  {
+    "item": "טירמיסו (מנות)",
+    "category": "עוגות",
+    "quantity": 8,
+    "unit": "יחידות",
+    "min_threshold": 5,
+    "last_counted": "2026-01-28",
+    "location": "ויטרינה קירור"
+  },
+  {
+    "item": "ביצים",
+    "category": "מטבח",
+    "quantity": 90,
+    "unit": "יחידות",
+    "min_threshold": 60,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ראשי"
+  },
+  {
+    "item": "עגבניות",
+    "category": "מטבח",
+    "quantity": 5,
+    "unit": "ק״ג",
+    "min_threshold": 3,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ירקות"
+  },
+  {
+    "item": "פלפלים",
+    "category": "מטבח",
+    "quantity": 3,
+    "unit": "ק״ג",
+    "min_threshold": 2,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ירקות"
+  },
+  {
+    "item": "בצל",
+    "category": "מטבח",
+    "quantity": 4,
+    "unit": "ק״ג",
+    "min_threshold": 2,
+    "last_counted": "2026-01-28",
+    "location": "מחסן אחורי"
+  },
+  {
+    "item": "אבוקדו",
+    "category": "מטבח",
+    "quantity": 12,
+    "unit": "יחידות",
+    "min_threshold": 8,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ירקות"
+  },
+  {
+    "item": "גבינה בולגרית",
+    "category": "מטבח",
+    "quantity": 4,
+    "unit": "ק״ג",
+    "min_threshold": 2,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ראשי"
+  },
+  {
+    "item": "גבינה צהובה",
+    "category": "מטבח",
+    "quantity": 3,
+    "unit": "ק״ג",
+    "min_threshold": 2,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ראשי"
+  },
+  {
+    "item": "חלומי",
+    "category": "מטבח",
+    "quantity": 2.5,
+    "unit": "ק״ג",
+    "min_threshold": 1.5,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ראשי"
+  },
+  {
+    "item": "טונה (קופסאות)",
+    "category": "מטבח",
+    "quantity": 15,
+    "unit": "יחידות",
+    "min_threshold": 8,
+    "last_counted": "2026-01-27",
+    "location": "מחסן אחורי"
+  },
+  {
+    "item": "סלמון מעושן",
+    "category": "מטבח",
+    "quantity": 1.5,
+    "unit": "ק״ג",
+    "min_threshold": 1,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ראשי"
+  },
+  {
+    "item": "לחם מחמצת",
+    "category": "מטבח",
+    "quantity": 6,
+    "unit": "כיכרות",
+    "min_threshold": 4,
+    "last_counted": "2026-01-28",
+    "location": "מדף לחם"
+  },
+  {
+    "item": "בייגל",
+    "category": "מטבח",
+    "quantity": 15,
+    "unit": "יחידות",
+    "min_threshold": 8,
+    "last_counted": "2026-01-28",
+    "location": "מדף לחם"
+  },
+  {
+    "item": "תפוזים",
+    "category": "פירות",
+    "quantity": 20,
+    "unit": "ק״ג",
+    "min_threshold": 10,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ירקות"
+  },
+  {
+    "item": "גזר",
+    "category": "פירות",
+    "quantity": 8,
+    "unit": "ק״ג",
+    "min_threshold": 5,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ירקות"
+  },
+  {
+    "item": "לימון",
+    "category": "פירות",
+    "quantity": 5,
+    "unit": "ק״ג",
+    "min_threshold": 3,
+    "last_counted": "2026-01-28",
+    "location": "מקרר ירקות"
+  },
+  {
+    "item": "כוסות נייר 8oz",
+    "category": "חד פעמי",
+    "quantity": 350,
+    "unit": "יחידות",
+    "min_threshold": 200,
+    "last_counted": "2026-01-26",
+    "location": "מחסן אחורי - מדף אמצעי"
+  },
+  {
+    "item": "כוסות נייר 12oz",
+    "category": "חד פעמי",
+    "quantity": 280,
+    "unit": "יחידות",
+    "min_threshold": 200,
+    "last_counted": "2026-01-26",
+    "location": "מחסן אחורי - מדף אמצעי"
+  },
+  {
+    "item": "מכסים לכוסות",
+    "category": "חד פעמי",
+    "quantity": 500,
+    "unit": "יחידות",
+    "min_threshold": 300,
+    "last_counted": "2026-01-26",
+    "location": "מחסן אחורי - מדף אמצעי"
+  },
+  {
+    "item": "מפיות",
+    "category": "חד פעמי",
+    "quantity": 800,
+    "unit": "יחידות",
+    "min_threshold": 500,
+    "last_counted": "2026-01-26",
+    "location": "דלפק שירות"
+  },
+  {
+    "item": "סבון כלים",
+    "category": "ניקיון",
+    "quantity": 5,
+    "unit": "ליטר",
+    "min_threshold": 3,
+    "last_counted": "2026-01-25",
+    "location": "מתחת לכיור"
+  },
+  {
+    "item": "נוזל ניקוי משטחים",
+    "category": "ניקיון",
+    "quantity": 3,
+    "unit": "ליטר",
+    "min_threshold": 2,
+    "last_counted": "2026-01-25",
+    "location": "ארון ניקיון"
+  }
+]
