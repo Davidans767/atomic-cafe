@@ -1,0 +1,120 @@
+===============================================
+ATOMIC CAFE - LOGINS & PASSWORDS
+===============================================
+!!!! צריך לעבור ל-password manager !!!!
+!!!! זה ממש לא בסדר שזה ככה !!!!
+!!!! רובי, תטפל בזה לפני שמישהו רואה !!!!
+
+עדכון אחרון: 2026-01-14 ע"י רובי
+===============================================
+
+
+--- SQUARE POS ---
+URL: https://squareup.com/login
+Email: ruby@atomic-cafe.co.il
+Password: AtomicCafe2022!
+2FA: SMS ל-050-XXX-XXXX (הטלפון של רובי)
+Merchant ID: ML7K9R2P5N3
+*** אם רובי בחו"ל אף אחד לא יכול להיכנס ***
+
+
+--- ICOUNT ---
+URL: https://app.icount.co.il
+Email: yael@atomic-cafe.co.il
+Password: Yael1234
+Company ID: 514882901
+API Key: ic_live_a8f7d9e2b1c4...  (יש בקובץ נפרד? לא יודע)
+
+
+--- GOOGLE WORKSPACE ---
+Admin: ruby@atomic-cafe.co.il
+Password: Coffee$Lover99
+משתמשים נוספים:
+  - yael@atomic-cafe.co.il / Yael2023@
+  - info@atomic-cafe.co.il / Info!2024 (משותף לצוות — לא טוב!)
+
+
+--- WIX ---
+URL: https://wix.com
+Email: ruby@atomic-cafe.co.il
+Password: Wix#Cafe2022
+*** הסיסמה הזאת שונה מהאחרים, אל תשכח ***
+
+
+--- MAILCHIMP ---
+URL: https://mailchimp.com
+Email: info@atomic-cafe.co.il
+Password: Mailchimp123!
+*** סיסמה חלשה, צריך להחליף ***
+
+
+--- WHATSAPP BUSINESS ---
+מחובר לטלפון של רובי (050-XXX-XXXX)
+אין web access נפרד
+
+
+--- INSTAGRAM ---
+@atomic.cafe.tlv
+Email connected: ruby@atomic-cafe.co.il
+Password: InstaCafe!2023
+*** Meta Business Suite גם משתמש באותה כניסה ***
+
+
+--- FACEBOOK ---
+Page: Atomic Cafe Tel Aviv
+Admin: רובי (אישי, FB account שלו)
+*** בעיה: אם רובי יורד מ-FB הדף תקוע ***
+
+
+--- BANK ---
+Mizrahi Tefahot — Business Account
+מס׳ סניף: 467
+מס׳ חשבון: 12345678
+משתמש: על שם רובי
+*** סיסמה לא כתובה כאן (הגיוני) ***
+*** אבל גם אין למישהו אחר גישה ***
+
+
+--- DOMAIN (atomic-cafe.co.il) ---
+רשום ב: Domain The Net Technologies
+חשבון: ruby@atomic-cafe.co.il
+Password: Domain2022!
+תפוגה: 14.03.2027 (חידוש אוטומטי? לבדוק!!)
+
+
+--- ELECTRICITY / חשמל ---
+חברת חשמל — חשבון על שם העסק
+משתמש אונליין: רובי
+Password: Elec2022
+
+
+--- CCTV (Hikvision) ---
+IP מקומי: 192.168.1.108
+משתמש: admin
+Password: admin1234
+*** ברירת מחדל!!! חייב להחליף ***
+
+
+--- WiFi ---
+רשת ראשית: AtomicCafe_Staff / staff#2024
+רשת אורחים: atomic-guest / cafelove2024
+Router admin: 192.168.1.1 / admin/cafe2022
+
+
+===============================================
+TODO (רובי, באמת תעשה):
+===============================================
+[ ] להוריד 1Password או Bitwarden
+[ ] להעביר את כל הסיסמאות
+[ ] לתת ליעל גישת חירום עם sealed envelope
+[ ] להפעיל 2FA על: Mailchimp, Wix, ICOUNT
+[ ] להחליף סיסמה ב-CCTV (admin/admin1234 — מסוכן)
+[ ] לבטל גישה ל-info@ משותף, לתת לכל אחד חשבון נפרד
+[ ] להוסיף backup admin ב-Square (יעל?)
+[ ] לבדוק אם Asana עדיין מחייבים
+[ ] לבדוק חידוש אוטומטי של הדומיין
+
+נכתב בכוונה כקובץ TXT כדי שיהיה קל לחפש.
+זה גם הבעיה הכי גדולה — קובץ TXT עם הכל בפנים.
+לא להעלות לגיט!!! (אבל כנראה כבר עלה)
+===============================================

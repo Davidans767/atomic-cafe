@@ -1,0 +1,95 @@
+{
+  "generated_at": "2025-12-31",
+  "total_customers": 200,
+  "segments": [
+    {
+      "id": "daily_regulars",
+      "name_he": "קבועים יומיים",
+      "name_en": "Daily Regulars",
+      "count": 12,
+      "criteria": "visit_count > 200, מגיעים כמעט כל יום",
+      "avg_monthly_spend_ils": 480,
+      "characteristics": [
+        "מכירים בשם פרטי",
+        "יש להם 'הרגיל' שמכינים אוטומטית",
+        "מגיעים באותה שעה",
+        "רגישים לכל שינוי במקום"
+      ],
+      "recommended_actions": [
+        "מתנת יום הולדת אישית",
+        "התייעצות לפני שינויים בתפריט",
+        "כרטיס VIP פיזי"
+      ]
+    },
+    {
+      "id": "weekly_regulars",
+      "name_he": "קבועי שבוע",
+      "name_en": "Weekly Regulars",
+      "count": 8,
+      "criteria": "100 < visit_count <= 200, פעם-פעמיים בשבוע",
+      "avg_monthly_spend_ils": 220,
+      "characteristics": [
+        "מזהים פנים, לא תמיד שם",
+        "יש להם פריט מועדף",
+        "מגיעים עם חברים/משפחה",
+        "פעילים ברשתות החברתיות שלנו"
+      ],
+      "recommended_actions": [
+        "ניוזלטר חודשי",
+        "הזמנה לאירועים פתוחים",
+        "כרטיס נאמנות דיגיטלי"
+      ]
+    },
+    {
+      "id": "occasional",
+      "name_he": "מזדמנים מזוהים",
+      "name_en": "Occasional Identified",
+      "count": 25,
+      "criteria": "40 < visit_count <= 100",
+      "avg_monthly_spend_ils": 95,
+      "characteristics": [
+        "מגיעים 2-4 פעמים בחודש",
+        "פתוחים לשמוע על מבצעים",
+        "פוטנציאל להפוך לקבועים"
+      ],
+      "recommended_actions": [
+        "מבצע 'הקפה החמישי על חשבון הבית'",
+        "SMS תזכורת חודשי"
+      ]
+    },
+    {
+      "id": "trial",
+      "name_he": "מנסים חדשים",
+      "name_en": "New Tryers",
+      "count": 80,
+      "criteria": "visit_count <= 5, first_visit ב-3 חודשים אחרונים",
+      "avg_monthly_spend_ils": 35,
+      "characteristics": [
+        "ביקור ראשון או שני",
+        "עדיין בוחנים את המקום",
+        "רגישים מאוד לחוויה הראשונית"
+      ],
+      "recommended_actions": [
+        "ברכת הצטרפות + 10% הנחה ביקור הבא",
+        "ביקוש פידבק על החוויה"
+      ]
+    },
+    {
+      "id": "dormant",
+      "name_he": "רדומים",
+      "name_en": "Dormant",
+      "count": 86,
+      "criteria": "לא ביקרו ב-3+ חודשים אבל היו פעילים בעבר",
+      "avg_monthly_spend_ils": 0,
+      "characteristics": [
+        "היו פעילים, נעלמו",
+        "לא ברור למה הפסיקו",
+        "פוטנציאל החזרה גבוה"
+      ],
+      "recommended_actions": [
+        "מייל 'מתגעגעים אליך' + שובר ₪20",
+        "שיחה אישית מהמנהל ל-VIP-ים לשעבר"
+      ]
+    }
+  ]
+}

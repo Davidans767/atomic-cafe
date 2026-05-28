@@ -1,0 +1,9 @@
+Vendor,Product,Monthly Cost (ILS),Setup Fee (ILS),Per-Transaction Fee,POS Integration,White-Label App,SMS Included,Min Contract (months),Notes,Quote Date,Status
+Como,Como Sense,890,2500,0,Square: Partial,Yes,200/mo,12,"Most expensive but most complete. Includes CRM, push notifications, custom branding. Demo was impressive.",2025-04-12,Postponed
+Loyverse,Loyverse Loyalty Add-on,180,0,0,Loyverse POS only (would require POS switch),No (generic app),0,0,Cheap but would need to migrate off Square. Not realistic without bigger transition.,2025-04-15,Rejected
+Square Loyalty,Square Loyalty (native),290,0,0,Native (Square),No,0,0,"Simplest path. Limited customization. No app, just integrated with Square checkout. Probably the right starting point.",2025-04-18,"Considered, never activated"
+
+# Decision Notes
+# Researched April 2025
+# Reason for postponement: רובי לא הצליח להחליט. הכי טוב (Como) יקר מדי. הכי זול (Square) מוגבל.
+# Status today (Jan 2026): שום פתרון נאמנות לא פעיל. לקוחות חוזרים לא מזוהים.

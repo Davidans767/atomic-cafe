@@ -1,0 +1,501 @@
+transaction_id,datetime,item,category,qty,unit_price_ils,total_ils,payment_method,card_brand,employee,tip_ils,customer_id,order_type
+SQ-20260001,2026-01-01 07:31:00,Cold Brew,Coffee,1,20.00,20.00,Google Pay,,Yael,1.00,,Takeaway
+SQ-20260002,2026-01-01 20:51:00,Muffin Blueberry,Pastry,1,14.00,14.00,Credit Card,Amex,Shira,0.00,,Takeaway
+SQ-20260003,2026-01-02 09:55:00,Veggie Wrap,Sandwich,1,36.00,36.00,Credit Card,Visa,Shira,4.32,,Dine-in
+SQ-20260004,2026-01-02 22:15:00,Cold Brew,Coffee,1,20.00,20.00,Bit,,Yael,1.00,,Takeaway
+SQ-20260005,2026-01-03 11:15:00,Fresh OJ,Drink,3,18.00,54.00,Bit,,Yael,0.00,CUST-1276,Dine-in
+SQ-20260006,2026-01-04 00:05:00,Beer (Tap),Drink,2,28.00,56.00,Cash,,Yael,0.00,,Takeaway
+SQ-20260007,2026-01-04 13:13:00,Fresh OJ,Drink,1,18.00,18.00,Credit Card,Visa,Shira,0.00,,Dine-in
+SQ-20260008,2026-01-05 02:59:00,Caesar Salad,Salad,2,46.00,92.00,Cash,,Shira,0.00,,Takeaway
+SQ-20260009,2026-01-05 15:42:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260010,2026-01-06 04:37:00,Veggie Wrap,Sandwich,1,36.00,36.00,Bit,,Ruby,0.00,,Takeaway
+SQ-20260011,2026-01-06 17:58:00,Fresh OJ,Drink,1,18.00,18.00,Credit Card,Isracard,Ruby,0.00,CUST-1034,Dine-in
+SQ-20260012,2026-01-07 06:25:00,Hafuch,Coffee,3,16.00,48.00,Google Pay,,Yael,4.80,,Takeaway
+SQ-20260013,2026-01-07 19:05:00,Muffin Blueberry,Pastry,2,14.00,28.00,Google Pay,,Yael,0.00,,Dine-in
+SQ-20260014,2026-01-08 08:42:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Cash,,Shira,0.00,CUST-1330,Dine-in
+SQ-20260015,2026-01-08 21:29:00,Croissant Chocolate,Pastry,3,16.00,48.00,Credit Card,Visa,Shira,4.80,,Dine-in
+SQ-20260016,2026-01-09 10:04:00,Avocado Toast,Breakfast,1,42.00,42.00,Cash,,Yael,0.00,,Dine-in
+SQ-20260017,2026-01-09 23:56:00,Iced Latte,Coffee,1,20.00,20.00,Credit Card,Mastercard,Yael,2.40,,Takeaway
+SQ-20260018,2026-01-10 12:00:00,Cheese Sandwich,Sandwich,2,32.00,64.00,Cash,,Tomer,0.00,CUST-1068,Dine-in
+SQ-20260019,2026-01-11 01:07:00,Lemonade,Drink,1,14.00,14.00,Apple Pay,,Yael,0.00,,Dine-in
+SQ-20260020,2026-01-11 14:45:00,Croissant Chocolate,Pastry,1,16.00,16.00,Cash,,Yael,0.00,,Dine-in
+SQ-20260021,2026-01-12 03:05:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Cash,,Ruby,0.00,CUST-1066,Dine-in
+SQ-20260022,2026-01-12 16:10:00,Veggie Wrap,Sandwich,1,36.00,36.00,Bit,,Yael,0.00,CUST-1076,Takeaway
+SQ-20260023,2026-01-13 05:02:00,Water Bottle,Drink,1,8.00,8.00,Apple Pay,,Yael,0.40,CUST-1157,Dine-in
+SQ-20260024,2026-01-13 18:57:00,Beer (Tap),Drink,2,28.00,56.00,Credit Card,Mastercard,Yael,6.72,,Dine-in
+SQ-20260025,2026-01-14 07:22:00,Salad Bowl,Salad,1,48.00,48.00,Bit,,Yael,5.76,CUST-1121,Dine-in
+SQ-20260026,2026-01-14 20:51:00,Caesar Salad,Salad,1,46.00,46.00,Bit,,Ruby,0.00,,Dine-in
+SQ-20260027,2026-01-15 09:50:00,Beer (Tap),Drink,1,28.00,28.00,Cash,,Tomer,0.00,CUST-1055,Takeaway
+SQ-20260028,2026-01-15 22:55:00,Americano,Coffee,3,14.00,42.00,Cash,,Yael,0.00,,Takeaway
+SQ-20260029,2026-01-16 11:22:00,Croissant Plain,Pastry,2,14.00,28.00,Cash,,Yael,0.00,CUST-1098,Takeaway
+SQ-20260030,2026-01-17 00:21:00,Macchiato,Coffee,3,14.00,42.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260031,2026-01-17 13:43:00,Water Bottle,Drink,1,8.00,8.00,Credit Card,Visa,Tomer,0.00,,Dine-in
+SQ-20260032,2026-01-18 02:02:00,Hafuch,Coffee,2,16.00,32.00,Bit,,Tomer,0.00,,Takeaway
+SQ-20260033,2026-01-18 15:07:00,Cookie,Pastry,3,10.00,30.00,Cash,,Tomer,0.00,CUST-1223,Dine-in
+SQ-20260034,2026-01-19 04:33:00,Beer (Tap),Drink,2,28.00,56.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260035,2026-01-19 17:39:00,Croissant Chocolate,Pastry,2,16.00,32.00,Credit Card,Amex,Tomer,3.20,,Takeaway
+SQ-20260036,2026-01-20 06:20:00,Cookie,Pastry,2,10.00,20.00,Apple Pay,,Yael,0.00,,Takeaway
+SQ-20260037,2026-01-20 19:43:00,Veggie Wrap,Sandwich,3,36.00,108.00,Google Pay,,Yael,0.00,,Dine-in
+SQ-20260038,2026-01-21 08:19:00,Croissant Plain,Pastry,1,14.00,14.00,Google Pay,,Yael,1.68,,Takeaway
+SQ-20260039,2026-01-21 21:28:00,Cheese Sandwich,Sandwich,1,32.00,32.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260040,2026-01-22 10:32:00,Cheese Sandwich,Sandwich,2,32.00,64.00,Bit,,Ruby,0.00,,Dine-in
+SQ-20260041,2026-01-22 23:51:00,Cold Brew,Coffee,1,20.00,20.00,Credit Card,Visa,Shira,2.00,,Dine-in
+SQ-20260042,2026-01-23 12:29:00,Muffin Blueberry,Pastry,3,14.00,42.00,Google Pay,,Yael,5.04,,Takeaway
+SQ-20260043,2026-01-24 01:25:00,Iced Latte,Coffee,1,20.00,20.00,Credit Card,Visa,Shira,0.00,CUST-1265,Takeaway
+SQ-20260044,2026-01-24 14:03:00,Avocado Toast,Breakfast,1,42.00,42.00,Credit Card,Mastercard,Yael,2.10,,Takeaway
+SQ-20260045,2026-01-25 03:38:00,Croissant Chocolate,Pastry,3,16.00,48.00,Bit,,Yael,5.76,,Takeaway
+SQ-20260046,2026-01-25 16:53:00,Beer (Tap),Drink,1,28.00,28.00,Credit Card,Amex,Shira,1.40,,Dine-in
+SQ-20260047,2026-01-26 05:53:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Apple Pay,,Shira,4.32,,Takeaway
+SQ-20260048,2026-01-26 18:04:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260049,2026-01-27 07:05:00,Latte,Coffee,1,18.00,18.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260050,2026-01-27 20:26:00,Muffin Blueberry,Pastry,1,14.00,14.00,Bit,,Shira,0.00,,Takeaway
+SQ-20260051,2026-01-28 09:24:00,Lemonade,Drink,2,14.00,28.00,Credit Card,Isracard,Shira,1.40,CUST-1180,Dine-in
+SQ-20260052,2026-01-28 22:48:00,Cookie,Pastry,2,10.00,20.00,Bit,,Yael,2.40,,Takeaway
+SQ-20260053,2026-01-29 11:57:00,Iced Latte,Coffee,1,20.00,20.00,Cash,,Shira,0.00,,Takeaway
+SQ-20260054,2026-01-30 00:21:00,Cheese Sandwich,Sandwich,2,32.00,64.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260055,2026-01-30 13:39:00,Avocado Toast,Breakfast,1,42.00,42.00,Bit,,Yael,4.20,,Dine-in
+SQ-20260056,2026-01-31 02:41:00,Muffin Blueberry,Pastry,1,14.00,14.00,Bit,,Yael,0.00,,Dine-in
+SQ-20260057,2026-01-01 15:13:00,Banana Bread,Pastry,1,18.00,18.00,Bit,,Tomer,0.90,,Dine-in
+SQ-20260058,2026-01-02 04:30:00,Espresso,Coffee,2,12.00,24.00,Credit Card,Mastercard,Yael,2.88,CUST-1333,Dine-in
+SQ-20260059,2026-01-02 17:48:00,Espresso,Coffee,3,12.00,36.00,Cash,,Ruby,0.00,,Dine-in
+SQ-20260060,2026-01-03 06:08:00,Israeli Breakfast,Breakfast,2,68.00,136.00,Google Pay,,Yael,6.80,,Dine-in
+SQ-20260061,2026-01-03 19:10:00,Yogurt Parfait,Breakfast,2,32.00,64.00,Credit Card,Visa,Tomer,0.00,,Dine-in
+SQ-20260062,2026-01-04 08:36:00,Cheese Sandwich,Sandwich,3,32.00,96.00,Bit,,Shira,11.52,,Takeaway
+SQ-20260063,2026-01-04 21:44:00,Water Bottle,Drink,2,8.00,16.00,Credit Card,Amex,Tomer,1.92,,Dine-in
+SQ-20260064,2026-01-05 10:50:00,Granola Bowl,Breakfast,2,38.00,76.00,Bit,,Yael,3.80,,Dine-in
+SQ-20260065,2026-01-05 23:32:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Bit,,Shira,0.00,,Dine-in
+SQ-20260066,2026-01-06 12:40:00,Lemonade,Drink,2,14.00,28.00,Credit Card,Mastercard,Yael,3.36,,Dine-in
+SQ-20260067,2026-01-07 01:39:00,Caesar Salad,Salad,3,46.00,138.00,Bit,,Shira,6.90,,Takeaway
+SQ-20260068,2026-01-07 14:17:00,Croissant Chocolate,Pastry,2,16.00,32.00,Credit Card,Mastercard,Shira,0.00,,Takeaway
+SQ-20260069,2026-01-08 03:39:00,Cheese Sandwich,Sandwich,1,32.00,32.00,Credit Card,Mastercard,Tomer,0.00,,Dine-in
+SQ-20260070,2026-01-08 16:51:00,Macchiato,Coffee,1,14.00,14.00,Google Pay,,Tomer,0.00,,Takeaway
+SQ-20260071,2026-01-09 06:00:00,Cold Brew,Coffee,1,20.00,20.00,Bit,,Shira,2.00,,Takeaway
+SQ-20260072,2026-01-09 18:41:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Credit Card,Visa,Tomer,0.00,,Dine-in
+SQ-20260073,2026-01-10 07:19:00,Cheese Sandwich,Sandwich,2,32.00,64.00,Bit,,Yael,6.40,,Takeaway
+SQ-20260074,2026-01-10 20:21:00,Scone,Pastry,2,12.00,24.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260075,2026-01-11 09:46:00,Cold Brew,Coffee,1,20.00,20.00,Apple Pay,,Tomer,0.00,,Takeaway
+SQ-20260076,2026-01-11 22:17:00,Veggie Wrap,Sandwich,2,36.00,72.00,Apple Pay,,Yael,0.00,,Dine-in
+SQ-20260077,2026-01-12 11:18:00,Iced Latte,Coffee,1,20.00,20.00,Cash,,Ruby,0.00,,Dine-in
+SQ-20260078,2026-01-13 00:17:00,Americano,Coffee,3,14.00,42.00,Apple Pay,,Tomer,5.04,,Takeaway
+SQ-20260079,2026-01-13 13:06:00,Fresh OJ,Drink,1,18.00,18.00,Cash,,Shira,0.00,,Dine-in
+SQ-20260080,2026-01-14 02:11:00,Americano,Coffee,1,14.00,14.00,Bit,,Ruby,0.00,,Dine-in
+SQ-20260081,2026-01-14 15:36:00,Tuna Sandwich,Sandwich,2,36.00,72.00,Credit Card,Visa,Yael,0.00,CUST-1127,Dine-in
+SQ-20260082,2026-01-15 04:35:00,Salad Bowl,Salad,1,48.00,48.00,Google Pay,,Yael,0.00,,Takeaway
+SQ-20260083,2026-01-15 17:28:00,Beer (Tap),Drink,1,28.00,28.00,Google Pay,,Shira,0.00,,Dine-in
+SQ-20260084,2026-01-16 06:39:00,Veggie Wrap,Sandwich,1,36.00,36.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260085,2026-01-16 19:10:00,Iced Latte,Coffee,1,20.00,20.00,Credit Card,Visa,Ruby,1.00,,Takeaway
+SQ-20260086,2026-01-17 08:30:00,Croissant Plain,Pastry,1,14.00,14.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260087,2026-01-17 21:04:00,Cheese Sandwich,Sandwich,1,32.00,32.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260088,2026-01-18 10:27:00,Hafuch,Coffee,1,16.00,16.00,Credit Card,Mastercard,Yael,0.00,CUST-1157,Takeaway
+SQ-20260089,2026-01-18 23:47:00,Water Bottle,Drink,1,8.00,8.00,Cash,,Shira,0.00,CUST-1155,Takeaway
+SQ-20260090,2026-01-19 13:00:00,Macchiato,Coffee,1,14.00,14.00,Bit,,Shira,0.00,,Takeaway
+SQ-20260091,2026-01-20 01:47:00,Croissant Chocolate,Pastry,2,16.00,32.00,Credit Card,Visa,Yael,3.84,,Takeaway
+SQ-20260092,2026-01-20 14:37:00,Espresso,Coffee,3,12.00,36.00,Cash,,Yael,0.00,CUST-1089,Takeaway
+SQ-20260093,2026-01-21 03:33:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Cash,,Yael,0.00,,Takeaway
+SQ-20260094,2026-01-21 16:40:00,Water Bottle,Drink,1,8.00,8.00,Credit Card,Mastercard,Tomer,0.40,,Dine-in
+SQ-20260095,2026-01-22 05:54:00,Flat White,Coffee,1,18.00,18.00,Bit,,Tomer,2.16,,Takeaway
+SQ-20260096,2026-01-22 18:02:00,Banana Bread,Pastry,1,18.00,18.00,Cash,,Tomer,0.00,CUST-1206,Takeaway
+SQ-20260097,2026-01-23 07:52:00,Espresso,Coffee,2,12.00,24.00,Apple Pay,,Shira,1.20,CUST-1265,Dine-in
+SQ-20260098,2026-01-23 20:39:00,Salad Bowl,Salad,1,48.00,48.00,Bit,,Ruby,0.00,,Dine-in
+SQ-20260099,2026-01-24 09:59:00,Croissant Plain,Pastry,1,14.00,14.00,Bit,,Ruby,0.00,,Takeaway
+SQ-20260100,2026-01-24 22:51:00,Iced Latte,Coffee,2,20.00,40.00,Cash,,Yael,0.00,CUST-1208,Dine-in
+SQ-20260101,2026-01-25 11:14:00,Water Bottle,Drink,3,8.00,24.00,Bit,,Ruby,2.88,,Takeaway
+SQ-20260102,2026-01-26 00:59:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Cash,,Shira,0.00,,Takeaway
+SQ-20260103,2026-01-26 13:15:00,Banana Bread,Pastry,1,18.00,18.00,Bit,,Yael,1.80,,Dine-in
+SQ-20260104,2026-01-27 02:55:00,Cappuccino,Coffee,1,16.00,16.00,Bit,,Tomer,1.60,,Dine-in
+SQ-20260105,2026-01-27 15:18:00,Veggie Wrap,Sandwich,1,36.00,36.00,Google Pay,,Yael,4.32,,Dine-in
+SQ-20260106,2026-01-28 04:28:00,Avocado Toast,Breakfast,1,42.00,42.00,Bit,,Yael,4.20,,Dine-in
+SQ-20260107,2026-01-28 17:55:00,Cold Brew,Coffee,3,20.00,60.00,Cash,,Yael,0.00,,Takeaway
+SQ-20260108,2026-01-29 06:02:00,Croissant Chocolate,Pastry,2,16.00,32.00,Bit,,Shira,3.84,,Dine-in
+SQ-20260109,2026-01-29 19:31:00,Americano,Coffee,1,14.00,14.00,Google Pay,,Tomer,0.00,,Takeaway
+SQ-20260110,2026-01-30 08:06:00,Shakshuka,Breakfast,3,52.00,156.00,Credit Card,Amex,Yael,7.80,,Dine-in
+SQ-20260111,2026-01-30 21:04:00,Israeli Breakfast,Breakfast,2,68.00,136.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260112,2026-01-01 10:41:00,Cappuccino,Coffee,2,16.00,32.00,Apple Pay,,Shira,0.00,,Takeaway
+SQ-20260113,2026-01-01 23:55:00,Avocado Toast,Breakfast,1,42.00,42.00,Credit Card,Visa,Tomer,5.04,,Dine-in
+SQ-20260114,2026-01-02 12:47:00,Cappuccino,Coffee,1,16.00,16.00,Credit Card,Amex,Tomer,0.00,,Dine-in
+SQ-20260115,2026-01-03 01:57:00,Espresso,Coffee,1,12.00,12.00,Credit Card,Mastercard,Tomer,0.00,,Dine-in
+SQ-20260116,2026-01-03 14:33:00,Muffin Blueberry,Pastry,1,14.00,14.00,Credit Card,Visa,Yael,0.00,,Takeaway
+SQ-20260117,2026-01-04 03:39:00,Cheese Sandwich,Sandwich,1,32.00,32.00,Google Pay,,Yael,0.00,,Dine-in
+SQ-20260118,2026-01-04 16:29:00,Macchiato,Coffee,2,14.00,28.00,Bit,,Tomer,3.36,,Dine-in
+SQ-20260119,2026-01-05 05:28:00,Scone,Pastry,3,12.00,36.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260120,2026-01-05 18:29:00,Fresh OJ,Drink,1,18.00,18.00,Bit,,Shira,0.00,,Takeaway
+SQ-20260121,2026-01-06 07:22:00,Granola Bowl,Breakfast,1,38.00,38.00,Cash,,Ruby,0.00,,Takeaway
+SQ-20260122,2026-01-06 20:17:00,Espresso,Coffee,1,12.00,12.00,Credit Card,Isracard,Tomer,0.60,,Dine-in
+SQ-20260123,2026-01-07 09:49:00,Caesar Salad,Salad,1,46.00,46.00,Bit,,Yael,5.52,,Dine-in
+SQ-20260124,2026-01-07 22:43:00,Salad Bowl,Salad,2,48.00,96.00,Credit Card,Amex,Ruby,11.52,,Dine-in
+SQ-20260125,2026-01-08 11:50:00,Banana Bread,Pastry,1,18.00,18.00,Bit,,Tomer,0.00,CUST-1151,Dine-in
+SQ-20260126,2026-01-09 00:47:00,Muffin Blueberry,Pastry,1,14.00,14.00,Credit Card,Isracard,Tomer,1.40,,Dine-in
+SQ-20260127,2026-01-09 13:53:00,Flat White,Coffee,1,18.00,18.00,Bit,,Tomer,2.16,,Dine-in
+SQ-20260128,2026-01-10 02:29:00,Cappuccino,Coffee,1,16.00,16.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260129,2026-01-10 15:54:00,Caesar Salad,Salad,1,46.00,46.00,Credit Card,Mastercard,Ruby,0.00,,Takeaway
+SQ-20260130,2026-01-11 04:23:00,Cheese Sandwich,Sandwich,2,32.00,64.00,Cash,,Yael,0.00,,Dine-in
+SQ-20260131,2026-01-11 17:06:00,Cheese Sandwich,Sandwich,1,32.00,32.00,Credit Card,Isracard,Yael,0.00,,Dine-in
+SQ-20260132,2026-01-12 06:41:00,Cappuccino,Coffee,2,16.00,32.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260133,2026-01-12 19:08:00,Americano,Coffee,3,14.00,42.00,Cash,,Shira,0.00,CUST-1120,Takeaway
+SQ-20260134,2026-01-13 08:08:00,Cookie,Pastry,1,10.00,10.00,Apple Pay,,Shira,1.00,,Dine-in
+SQ-20260135,2026-01-13 21:56:00,Muffin Blueberry,Pastry,2,14.00,28.00,Bit,,Yael,1.40,,Dine-in
+SQ-20260136,2026-01-14 10:02:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Bit,,Shira,0.00,,Dine-in
+SQ-20260137,2026-01-14 23:43:00,Scone,Pastry,1,12.00,12.00,Bit,,Ruby,0.60,,Dine-in
+SQ-20260138,2026-01-15 13:00:00,Fresh OJ,Drink,2,18.00,36.00,Credit Card,Amex,Yael,4.32,,Dine-in
+SQ-20260139,2026-01-16 01:03:00,Caesar Salad,Salad,1,46.00,46.00,Credit Card,Isracard,Yael,0.00,,Takeaway
+SQ-20260140,2026-01-16 14:13:00,Granola Bowl,Breakfast,1,38.00,38.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260141,2026-01-17 03:00:00,Macchiato,Coffee,3,14.00,42.00,Credit Card,Visa,Yael,0.00,,Dine-in
+SQ-20260142,2026-01-17 16:42:00,Fresh OJ,Drink,1,18.00,18.00,Credit Card,Mastercard,Yael,1.80,,Dine-in
+SQ-20260143,2026-01-18 05:16:00,Americano,Coffee,1,14.00,14.00,Bit,,Yael,0.00,,Takeaway
+SQ-20260144,2026-01-18 18:28:00,Salad Bowl,Salad,1,48.00,48.00,Google Pay,,Ruby,2.40,,Takeaway
+SQ-20260145,2026-01-19 07:02:00,Veggie Wrap,Sandwich,2,36.00,72.00,Apple Pay,,Tomer,3.60,,Dine-in
+SQ-20260146,2026-01-19 20:03:00,Israeli Breakfast,Breakfast,2,68.00,136.00,Bit,,Tomer,0.00,,Takeaway
+SQ-20260147,2026-01-20 09:04:00,Lemonade,Drink,1,14.00,14.00,Google Pay,,Yael,0.00,CUST-1319,Takeaway
+SQ-20260148,2026-01-20 22:35:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Google Pay,,Yael,0.00,,Takeaway
+SQ-20260149,2026-01-21 11:27:00,Hafuch,Coffee,2,16.00,32.00,Credit Card,Amex,Tomer,3.20,,Dine-in
+SQ-20260150,2026-01-22 00:27:00,Banana Bread,Pastry,3,18.00,54.00,Bit,,Tomer,2.70,,Dine-in
+SQ-20260151,2026-01-22 13:20:00,Muffin Blueberry,Pastry,1,14.00,14.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260152,2026-01-23 02:04:00,Cappuccino,Coffee,2,16.00,32.00,Credit Card,Mastercard,Ruby,3.84,,Dine-in
+SQ-20260153,2026-01-23 15:35:00,Americano,Coffee,2,14.00,28.00,Apple Pay,,Yael,0.00,,Takeaway
+SQ-20260154,2026-01-24 04:22:00,Fresh OJ,Drink,2,18.00,36.00,Bit,,Tomer,0.00,,Takeaway
+SQ-20260155,2026-01-24 17:19:00,Scone,Pastry,1,12.00,12.00,Apple Pay,,Yael,0.00,,Dine-in
+SQ-20260156,2026-01-25 06:54:00,Hafuch,Coffee,1,16.00,16.00,Apple Pay,,Tomer,0.00,,Takeaway
+SQ-20260157,2026-01-25 19:14:00,Caesar Salad,Salad,1,46.00,46.00,Apple Pay,,Yael,4.60,,Takeaway
+SQ-20260158,2026-01-26 08:01:00,Yogurt Parfait,Breakfast,3,32.00,96.00,Cash,,Ruby,0.00,,Dine-in
+SQ-20260159,2026-01-26 21:58:00,Croissant Chocolate,Pastry,1,16.00,16.00,Credit Card,Visa,Yael,1.92,,Dine-in
+SQ-20260160,2026-01-27 10:47:00,Tuna Sandwich,Sandwich,3,36.00,108.00,Credit Card,Amex,Yael,0.00,,Takeaway
+SQ-20260161,2026-01-27 23:21:00,Flat White,Coffee,1,18.00,18.00,Bit,,Yael,1.80,CUST-1026,Dine-in
+SQ-20260162,2026-01-28 12:10:00,Salad Bowl,Salad,2,48.00,96.00,Credit Card,Mastercard,Shira,11.52,,Takeaway
+SQ-20260163,2026-01-29 01:28:00,Muffin Blueberry,Pastry,1,14.00,14.00,Apple Pay,,Ruby,0.00,,Dine-in
+SQ-20260164,2026-01-29 14:43:00,Cheese Sandwich,Sandwich,2,32.00,64.00,Apple Pay,,Tomer,0.00,CUST-1202,Takeaway
+SQ-20260165,2026-01-30 03:03:00,Espresso,Coffee,1,12.00,12.00,Cash,,Yael,0.00,,Dine-in
+SQ-20260166,2026-01-30 16:20:00,Hafuch,Coffee,1,16.00,16.00,Bit,,Yael,0.00,,Dine-in
+SQ-20260167,2026-01-31 05:32:00,Avocado Toast,Breakfast,2,42.00,84.00,Bit,,Ruby,4.20,,Dine-in
+SQ-20260168,2026-01-01 18:27:00,Espresso,Coffee,1,12.00,12.00,Credit Card,Mastercard,Yael,0.60,,Takeaway
+SQ-20260169,2026-01-02 07:18:00,Hafuch,Coffee,1,16.00,16.00,Bit,,Yael,1.60,,Dine-in
+SQ-20260170,2026-01-02 20:05:00,Muffin Blueberry,Pastry,2,14.00,28.00,Cash,,Shira,0.00,,Takeaway
+SQ-20260171,2026-01-03 09:05:00,Cookie,Pastry,3,10.00,30.00,Bit,,Yael,0.00,,Dine-in
+SQ-20260172,2026-01-03 22:32:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Apple Pay,,Yael,0.00,,Dine-in
+SQ-20260173,2026-01-04 11:15:00,Hafuch,Coffee,1,16.00,16.00,Cash,,Yael,0.00,,Dine-in
+SQ-20260174,2026-01-05 00:11:00,Salad Bowl,Salad,2,48.00,96.00,Bit,,Yael,9.60,,Takeaway
+SQ-20260175,2026-01-05 13:41:00,Tuna Sandwich,Sandwich,3,36.00,108.00,Bit,,Tomer,0.00,CUST-1034,Takeaway
+SQ-20260176,2026-01-06 02:28:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Cash,,Yael,0.00,CUST-1259,Dine-in
+SQ-20260177,2026-01-06 15:19:00,Banana Bread,Pastry,1,18.00,18.00,Credit Card,Mastercard,Tomer,0.00,,Dine-in
+SQ-20260178,2026-01-07 04:39:00,Yogurt Parfait,Breakfast,1,32.00,32.00,Bit,,Yael,3.20,,Dine-in
+SQ-20260179,2026-01-07 17:28:00,Beer (Tap),Drink,2,28.00,56.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260180,2026-01-08 06:09:00,Americano,Coffee,1,14.00,14.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260181,2026-01-08 19:02:00,Iced Latte,Coffee,2,20.00,40.00,Bit,,Yael,4.00,,Dine-in
+SQ-20260182,2026-01-09 08:23:00,Beer (Tap),Drink,1,28.00,28.00,Bit,,Tomer,3.36,,Dine-in
+SQ-20260183,2026-01-09 21:04:00,Croissant Chocolate,Pastry,1,16.00,16.00,Bit,,Tomer,0.00,,Takeaway
+SQ-20260184,2026-01-10 10:55:00,Latte,Coffee,1,18.00,18.00,Google Pay,,Tomer,0.00,,Dine-in
+SQ-20260185,2026-01-10 23:41:00,Halloumi Sandwich,Sandwich,2,38.00,76.00,Credit Card,Isracard,Tomer,0.00,,Takeaway
+SQ-20260186,2026-01-11 12:41:00,Caesar Salad,Salad,1,46.00,46.00,Credit Card,Amex,Tomer,5.52,,Takeaway
+SQ-20260187,2026-01-12 01:05:00,Tuna Sandwich,Sandwich,2,36.00,72.00,Apple Pay,,Tomer,0.00,,Dine-in
+SQ-20260188,2026-01-12 15:00:00,Cold Brew,Coffee,1,20.00,20.00,Bit,,Yael,0.00,,Dine-in
+SQ-20260189,2026-01-13 03:04:00,Croissant Plain,Pastry,2,14.00,28.00,Credit Card,Isracard,Yael,3.36,,Dine-in
+SQ-20260190,2026-01-13 16:42:00,Croissant Chocolate,Pastry,3,16.00,48.00,Google Pay,,Yael,4.80,,Dine-in
+SQ-20260191,2026-01-14 05:11:00,Water Bottle,Drink,2,8.00,16.00,Google Pay,,Yael,1.92,,Takeaway
+SQ-20260192,2026-01-14 18:23:00,Cheese Sandwich,Sandwich,2,32.00,64.00,Bit,,Yael,0.00,,Takeaway
+SQ-20260193,2026-01-15 07:14:00,Avocado Toast,Breakfast,1,42.00,42.00,Bit,,Yael,0.00,,Takeaway
+SQ-20260194,2026-01-15 20:28:00,Banana Bread,Pastry,2,18.00,36.00,Bit,,Yael,3.60,,Dine-in
+SQ-20260195,2026-01-16 09:52:00,Cold Brew,Coffee,2,20.00,40.00,Credit Card,Mastercard,Ruby,4.80,,Dine-in
+SQ-20260196,2026-01-16 22:35:00,Beer (Tap),Drink,1,28.00,28.00,Apple Pay,,Ruby,0.00,CUST-1082,Dine-in
+SQ-20260197,2026-01-17 11:28:00,Lemonade,Drink,1,14.00,14.00,Bit,,Ruby,0.00,,Dine-in
+SQ-20260198,2026-01-18 00:59:00,Espresso,Coffee,1,12.00,12.00,Bit,,Yael,0.00,,Dine-in
+SQ-20260199,2026-01-18 13:23:00,Iced Latte,Coffee,1,20.00,20.00,Credit Card,Amex,Tomer,0.00,,Dine-in
+SQ-20260200,2026-01-19 02:02:00,Croissant Plain,Pastry,3,14.00,42.00,Bit,,Tomer,0.00,,Takeaway
+SQ-20260201,2026-01-19 15:28:00,Yogurt Parfait,Breakfast,1,32.00,32.00,Credit Card,Visa,Tomer,0.00,,Takeaway
+SQ-20260202,2026-01-20 05:00:00,Veggie Wrap,Sandwich,2,36.00,72.00,Bit,,Ruby,0.00,,Dine-in
+SQ-20260203,2026-01-20 17:03:00,Iced Latte,Coffee,1,20.00,20.00,Google Pay,,Shira,0.00,CUST-1255,Takeaway
+SQ-20260204,2026-01-21 06:34:00,Espresso,Coffee,2,12.00,24.00,Google Pay,,Yael,2.88,CUST-1219,Dine-in
+SQ-20260205,2026-01-21 19:39:00,Scone,Pastry,1,12.00,12.00,Bit,,Yael,1.44,,Takeaway
+SQ-20260206,2026-01-22 08:23:00,Cappuccino,Coffee,3,16.00,48.00,Apple Pay,,Yael,4.80,,Takeaway
+SQ-20260207,2026-01-22 21:55:00,Israeli Breakfast,Breakfast,1,68.00,68.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260208,2026-01-23 10:50:00,Cappuccino,Coffee,1,16.00,16.00,Credit Card,Isracard,Tomer,0.00,CUST-1180,Takeaway
+SQ-20260209,2026-01-23 23:21:00,Water Bottle,Drink,2,8.00,16.00,Bit,,Tomer,0.80,,Dine-in
+SQ-20260210,2026-01-24 12:04:00,Halloumi Sandwich,Sandwich,2,38.00,76.00,Bit,,Ruby,0.00,,Dine-in
+SQ-20260211,2026-01-25 01:56:00,Americano,Coffee,1,14.00,14.00,Cash,,Yael,0.00,,Takeaway
+SQ-20260212,2026-01-25 14:30:00,Macchiato,Coffee,1,14.00,14.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260213,2026-01-26 03:55:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Credit Card,Mastercard,Shira,1.80,,Takeaway
+SQ-20260214,2026-01-26 16:21:00,Flat White,Coffee,1,18.00,18.00,Bit,,Tomer,1.80,,Dine-in
+SQ-20260215,2026-01-27 05:46:00,Muffin Blueberry,Pastry,1,14.00,14.00,Google Pay,,Yael,1.40,,Dine-in
+SQ-20260216,2026-01-27 18:05:00,Croissant Chocolate,Pastry,2,16.00,32.00,Cash,,Shira,0.00,,Takeaway
+SQ-20260217,2026-01-28 07:10:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Bit,,Ruby,4.56,,Dine-in
+SQ-20260218,2026-01-28 20:39:00,Muffin Blueberry,Pastry,1,14.00,14.00,Credit Card,Visa,Tomer,1.68,,Takeaway
+SQ-20260219,2026-01-29 09:51:00,Veggie Wrap,Sandwich,2,36.00,72.00,Credit Card,Visa,Yael,8.64,,Dine-in
+SQ-20260220,2026-01-29 22:08:00,Cappuccino,Coffee,1,16.00,16.00,Bit,,Tomer,0.80,,Dine-in
+SQ-20260221,2026-01-30 11:38:00,Latte,Coffee,2,18.00,36.00,Bit,,Tomer,1.80,,Takeaway
+SQ-20260222,2026-01-31 00:08:00,Shakshuka,Breakfast,1,52.00,52.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260223,2026-01-01 13:01:00,Veggie Wrap,Sandwich,1,36.00,36.00,Apple Pay,,Shira,3.60,CUST-1133,Takeaway
+SQ-20260224,2026-01-02 02:13:00,Yogurt Parfait,Breakfast,1,32.00,32.00,Bit,,Yael,0.00,CUST-1037,Takeaway
+SQ-20260225,2026-01-02 15:11:00,Lemonade,Drink,2,14.00,28.00,Credit Card,Amex,Tomer,3.36,,Dine-in
+SQ-20260226,2026-01-03 04:35:00,Avocado Toast,Breakfast,1,42.00,42.00,Cash,,Yael,0.00,,Dine-in
+SQ-20260227,2026-01-03 17:50:00,Scone,Pastry,1,12.00,12.00,Credit Card,Visa,Yael,0.00,,Dine-in
+SQ-20260228,2026-01-04 06:23:00,Avocado Toast,Breakfast,2,42.00,84.00,Bit,,Yael,0.00,,Dine-in
+SQ-20260229,2026-01-04 19:04:00,Croissant Plain,Pastry,1,14.00,14.00,Bit,,Yael,0.70,,Takeaway
+SQ-20260230,2026-01-05 08:04:00,Latte,Coffee,3,18.00,54.00,Credit Card,Mastercard,Shira,6.48,,Dine-in
+SQ-20260231,2026-01-05 21:56:00,Water Bottle,Drink,2,8.00,16.00,Google Pay,,Yael,0.00,,Dine-in
+SQ-20260232,2026-01-06 10:53:00,Hafuch,Coffee,1,16.00,16.00,Cash,,Yael,0.00,CUST-1115,Dine-in
+SQ-20260233,2026-01-07 00:00:00,Shakshuka,Breakfast,3,52.00,156.00,Credit Card,Mastercard,Yael,18.72,,Dine-in
+SQ-20260234,2026-01-07 12:08:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Apple Pay,,Ruby,3.60,,Takeaway
+SQ-20260235,2026-01-08 02:00:00,Granola Bowl,Breakfast,1,38.00,38.00,Google Pay,,Tomer,3.80,,Takeaway
+SQ-20260236,2026-01-08 14:02:00,Water Bottle,Drink,3,8.00,24.00,Credit Card,Visa,Tomer,2.40,,Dine-in
+SQ-20260237,2026-01-09 03:49:00,Granola Bowl,Breakfast,1,38.00,38.00,Credit Card,Mastercard,Tomer,3.80,,Dine-in
+SQ-20260238,2026-01-09 16:30:00,Iced Latte,Coffee,2,20.00,40.00,Bit,,Tomer,2.00,CUST-1030,Dine-in
+SQ-20260239,2026-01-10 05:28:00,Muffin Blueberry,Pastry,1,14.00,14.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260240,2026-01-10 18:55:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Bit,,Shira,0.00,,Takeaway
+SQ-20260241,2026-01-11 07:35:00,Hafuch,Coffee,1,16.00,16.00,Bit,,Ruby,0.00,,Dine-in
+SQ-20260242,2026-01-11 20:06:00,Americano,Coffee,1,14.00,14.00,Bit,,Yael,0.70,,Dine-in
+SQ-20260243,2026-01-12 09:52:00,Croissant Chocolate,Pastry,3,16.00,48.00,Bit,,Yael,0.00,,Takeaway
+SQ-20260244,2026-01-12 22:29:00,Israeli Breakfast,Breakfast,3,68.00,204.00,Bit,,Ruby,0.00,,Takeaway
+SQ-20260245,2026-01-13 11:29:00,Iced Latte,Coffee,1,20.00,20.00,Bit,,Ruby,0.00,,Takeaway
+SQ-20260246,2026-01-14 00:56:00,Water Bottle,Drink,2,8.00,16.00,Bit,,Tomer,1.60,CUST-1055,Takeaway
+SQ-20260247,2026-01-14 13:08:00,Lemonade,Drink,1,14.00,14.00,Bit,,Shira,0.00,CUST-1026,Takeaway
+SQ-20260248,2026-01-15 02:35:00,Cold Brew,Coffee,1,20.00,20.00,Cash,,Ruby,0.00,,Takeaway
+SQ-20260249,2026-01-15 15:48:00,Avocado Toast,Breakfast,1,42.00,42.00,Google Pay,,Tomer,4.20,CUST-1049,Takeaway
+SQ-20260250,2026-01-16 04:23:00,Caesar Salad,Salad,3,46.00,138.00,Apple Pay,,Tomer,0.00,,Takeaway
+SQ-20260251,2026-01-16 17:25:00,Shakshuka,Breakfast,1,52.00,52.00,Credit Card,Visa,Tomer,0.00,,Takeaway
+SQ-20260252,2026-01-17 06:29:00,Latte,Coffee,2,18.00,36.00,Apple Pay,,Yael,0.00,,Dine-in
+SQ-20260253,2026-01-17 19:10:00,Cookie,Pastry,3,10.00,30.00,Cash,,Yael,0.00,,Takeaway
+SQ-20260254,2026-01-18 08:34:00,Israeli Breakfast,Breakfast,2,68.00,136.00,Cash,,Shira,0.00,,Dine-in
+SQ-20260255,2026-01-18 21:21:00,Cheese Sandwich,Sandwich,1,32.00,32.00,Bit,,Yael,0.00,,Dine-in
+SQ-20260256,2026-01-19 10:38:00,Israeli Breakfast,Breakfast,1,68.00,68.00,Google Pay,,Yael,0.00,,Takeaway
+SQ-20260257,2026-01-19 23:30:00,Flat White,Coffee,1,18.00,18.00,Google Pay,,Shira,0.00,,Dine-in
+SQ-20260258,2026-01-20 12:02:00,Granola Bowl,Breakfast,3,38.00,114.00,Credit Card,Visa,Ruby,5.70,,Dine-in
+SQ-20260259,2026-01-21 01:26:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Apple Pay,,Yael,1.90,,Dine-in
+SQ-20260260,2026-01-21 14:45:00,Latte,Coffee,1,18.00,18.00,Apple Pay,,Tomer,2.16,,Takeaway
+SQ-20260261,2026-01-22 03:20:00,Flat White,Coffee,1,18.00,18.00,Apple Pay,,Tomer,1.80,,Dine-in
+SQ-20260262,2026-01-22 16:39:00,Israeli Breakfast,Breakfast,1,68.00,68.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260263,2026-01-23 06:00:00,Croissant Plain,Pastry,2,14.00,28.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260264,2026-01-23 18:30:00,Scone,Pastry,1,12.00,12.00,Cash,,Tomer,0.00,CUST-1278,Takeaway
+SQ-20260265,2026-01-24 07:57:00,Cookie,Pastry,2,10.00,20.00,Credit Card,Mastercard,Ruby,0.00,,Dine-in
+SQ-20260266,2026-01-24 20:22:00,Beer (Tap),Drink,1,28.00,28.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260267,2026-01-25 09:52:00,Avocado Toast,Breakfast,1,42.00,42.00,Apple Pay,,Tomer,0.00,CUST-1315,Takeaway
+SQ-20260268,2026-01-25 22:15:00,Iced Latte,Coffee,1,20.00,20.00,Apple Pay,,Yael,2.40,,Dine-in
+SQ-20260269,2026-01-26 11:26:00,Croissant Chocolate,Pastry,2,16.00,32.00,Credit Card,Amex,Yael,0.00,,Dine-in
+SQ-20260270,2026-01-27 00:26:00,Tuna Sandwich,Sandwich,3,36.00,108.00,Bit,,Shira,12.96,,Dine-in
+SQ-20260271,2026-01-27 13:20:00,Croissant Plain,Pastry,2,14.00,28.00,Credit Card,Amex,Yael,0.00,,Dine-in
+SQ-20260272,2026-01-28 02:58:00,Beer (Tap),Drink,1,28.00,28.00,Credit Card,Visa,Shira,1.40,,Dine-in
+SQ-20260273,2026-01-28 15:56:00,Americano,Coffee,1,14.00,14.00,Google Pay,,Yael,0.00,,Dine-in
+SQ-20260274,2026-01-29 04:18:00,Banana Bread,Pastry,3,18.00,54.00,Apple Pay,,Yael,2.70,,Dine-in
+SQ-20260275,2026-01-29 17:54:00,Shakshuka,Breakfast,1,52.00,52.00,Cash,,Ruby,0.00,,Takeaway
+SQ-20260276,2026-01-30 06:41:00,Macchiato,Coffee,2,14.00,28.00,Credit Card,Amex,Tomer,0.00,,Dine-in
+SQ-20260277,2026-01-30 19:11:00,Yogurt Parfait,Breakfast,2,32.00,64.00,Bit,,Shira,6.40,,Takeaway
+SQ-20260278,2026-01-01 08:42:00,Hafuch,Coffee,1,16.00,16.00,Credit Card,Mastercard,Tomer,0.00,CUST-1196,Dine-in
+SQ-20260279,2026-01-01 21:28:00,Salad Bowl,Salad,1,48.00,48.00,Bit,,Tomer,4.80,,Dine-in
+SQ-20260280,2026-01-02 10:16:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Cash,,Ruby,0.00,,Takeaway
+SQ-20260281,2026-01-02 23:19:00,Flat White,Coffee,1,18.00,18.00,Apple Pay,,Tomer,0.00,,Dine-in
+SQ-20260282,2026-01-03 12:23:00,Yogurt Parfait,Breakfast,1,32.00,32.00,Credit Card,Mastercard,Yael,1.60,,Takeaway
+SQ-20260283,2026-01-04 01:23:00,Muffin Blueberry,Pastry,2,14.00,28.00,Bit,,Yael,3.36,,Dine-in
+SQ-20260284,2026-01-04 14:43:00,Salad Bowl,Salad,2,48.00,96.00,Credit Card,Isracard,Shira,9.60,,Dine-in
+SQ-20260285,2026-01-05 03:58:00,Granola Bowl,Breakfast,1,38.00,38.00,Apple Pay,,Yael,0.00,,Dine-in
+SQ-20260286,2026-01-05 16:10:00,Croissant Chocolate,Pastry,2,16.00,32.00,Bit,,Ruby,3.84,,Takeaway
+SQ-20260287,2026-01-06 05:31:00,Cappuccino,Coffee,3,16.00,48.00,Bit,,Ruby,2.40,CUST-1212,Takeaway
+SQ-20260288,2026-01-06 18:36:00,Americano,Coffee,1,14.00,14.00,Cash,,Tomer,0.00,CUST-1130,Dine-in
+SQ-20260289,2026-01-07 07:47:00,Cold Brew,Coffee,2,20.00,40.00,Credit Card,Mastercard,Tomer,4.80,CUST-1030,Dine-in
+SQ-20260290,2026-01-07 20:59:00,Israeli Breakfast,Breakfast,1,68.00,68.00,Bit,,Yael,0.00,,Takeaway
+SQ-20260291,2026-01-08 09:23:00,Lemonade,Drink,1,14.00,14.00,Bit,,Shira,0.00,,Takeaway
+SQ-20260292,2026-01-08 22:08:00,Tuna Sandwich,Sandwich,3,36.00,108.00,Credit Card,Visa,Yael,5.40,,Dine-in
+SQ-20260293,2026-01-09 11:53:00,Espresso,Coffee,2,12.00,24.00,Cash,,Shira,0.00,,Takeaway
+SQ-20260294,2026-01-10 00:27:00,Avocado Toast,Breakfast,1,42.00,42.00,Cash,,Yael,0.00,,Dine-in
+SQ-20260295,2026-01-10 13:17:00,Cold Brew,Coffee,3,20.00,60.00,Credit Card,Visa,Tomer,3.00,,Dine-in
+SQ-20260296,2026-01-11 02:15:00,Cold Brew,Coffee,1,20.00,20.00,Google Pay,,Ruby,1.00,,Dine-in
+SQ-20260297,2026-01-11 15:15:00,Veggie Wrap,Sandwich,1,36.00,36.00,Bit,,Yael,3.60,,Dine-in
+SQ-20260298,2026-01-12 04:08:00,Shakshuka,Breakfast,3,52.00,156.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260299,2026-01-12 17:38:00,Salad Bowl,Salad,2,48.00,96.00,Bit,,Yael,0.00,,Takeaway
+SQ-20260300,2026-01-13 06:14:00,Muffin Blueberry,Pastry,1,14.00,14.00,Credit Card,Isracard,Yael,1.68,,Takeaway
+SQ-20260301,2026-01-13 19:35:00,Israeli Breakfast,Breakfast,1,68.00,68.00,Bit,,Tomer,8.16,,Takeaway
+SQ-20260302,2026-01-14 08:20:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Credit Card,Mastercard,Shira,0.00,,Takeaway
+SQ-20260303,2026-01-14 21:15:00,Fresh OJ,Drink,1,18.00,18.00,Credit Card,Mastercard,Ruby,1.80,,Takeaway
+SQ-20260304,2026-01-15 10:35:00,Shakshuka,Breakfast,1,52.00,52.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260305,2026-01-15 23:59:00,Banana Bread,Pastry,2,18.00,36.00,Credit Card,Isracard,Tomer,0.00,CUST-1193,Takeaway
+SQ-20260306,2026-01-16 12:38:00,Americano,Coffee,3,14.00,42.00,Cash,,Yael,0.00,,Takeaway
+SQ-20260307,2026-01-17 01:13:00,Israeli Breakfast,Breakfast,1,68.00,68.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260308,2026-01-17 14:47:00,Hafuch,Coffee,2,16.00,32.00,Bit,,Yael,3.84,,Dine-in
+SQ-20260309,2026-01-18 03:25:00,Beer (Tap),Drink,1,28.00,28.00,Bit,,Tomer,1.40,,Dine-in
+SQ-20260310,2026-01-18 16:19:00,Macchiato,Coffee,1,14.00,14.00,Bit,,Shira,0.00,,Takeaway
+SQ-20260311,2026-01-19 05:48:00,Water Bottle,Drink,1,8.00,8.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260312,2026-01-19 18:36:00,Fresh OJ,Drink,1,18.00,18.00,Credit Card,Visa,Tomer,1.80,,Takeaway
+SQ-20260313,2026-01-20 07:46:00,Muffin Blueberry,Pastry,1,14.00,14.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260314,2026-01-20 20:53:00,Iced Latte,Coffee,1,20.00,20.00,Bit,,Tomer,1.00,,Takeaway
+SQ-20260315,2026-01-21 09:29:00,Flat White,Coffee,2,18.00,36.00,Bit,,Yael,0.00,,Takeaway
+SQ-20260316,2026-01-21 22:11:00,Beer (Tap),Drink,3,28.00,84.00,Credit Card,Isracard,Ruby,0.00,,Dine-in
+SQ-20260317,2026-01-22 11:48:00,Espresso,Coffee,1,12.00,12.00,Cash,,Ruby,0.00,,Dine-in
+SQ-20260318,2026-01-23 00:13:00,Shakshuka,Breakfast,1,52.00,52.00,Credit Card,Isracard,Tomer,6.24,,Takeaway
+SQ-20260319,2026-01-23 13:42:00,Israeli Breakfast,Breakfast,1,68.00,68.00,Apple Pay,,Yael,3.40,CUST-1271,Dine-in
+SQ-20260320,2026-01-24 02:34:00,Croissant Plain,Pastry,1,14.00,14.00,Bit,,Yael,0.00,,Takeaway
+SQ-20260321,2026-01-24 15:09:00,Iced Latte,Coffee,1,20.00,20.00,Apple Pay,,Tomer,0.00,,Takeaway
+SQ-20260322,2026-01-25 04:05:00,Scone,Pastry,3,12.00,36.00,Bit,,Yael,0.00,,Dine-in
+SQ-20260323,2026-01-25 17:19:00,Cheese Sandwich,Sandwich,2,32.00,64.00,Credit Card,Amex,Tomer,0.00,CUST-1194,Takeaway
+SQ-20260324,2026-01-26 06:35:00,Israeli Breakfast,Breakfast,1,68.00,68.00,Credit Card,Amex,Yael,0.00,,Takeaway
+SQ-20260325,2026-01-26 19:41:00,Caesar Salad,Salad,1,46.00,46.00,Credit Card,Isracard,Ruby,0.00,,Takeaway
+SQ-20260326,2026-01-27 08:30:00,Macchiato,Coffee,1,14.00,14.00,Credit Card,Amex,Tomer,1.40,,Dine-in
+SQ-20260327,2026-01-27 21:11:00,Beer (Tap),Drink,2,28.00,56.00,Credit Card,Visa,Yael,0.00,,Takeaway
+SQ-20260328,2026-01-28 10:59:00,Cappuccino,Coffee,1,16.00,16.00,Google Pay,,Yael,1.60,,Takeaway
+SQ-20260329,2026-01-28 23:43:00,Lemonade,Drink,1,14.00,14.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260330,2026-01-29 12:32:00,Veggie Wrap,Sandwich,3,36.00,108.00,Credit Card,Visa,Shira,0.00,,Dine-in
+SQ-20260331,2026-01-30 01:38:00,Salad Bowl,Salad,2,48.00,96.00,Google Pay,,Shira,0.00,CUST-1139,Takeaway
+SQ-20260332,2026-01-30 14:31:00,Iced Latte,Coffee,1,20.00,20.00,Bit,,Shira,0.00,,Takeaway
+SQ-20260333,2026-01-31 03:05:00,Salad Bowl,Salad,2,48.00,96.00,Cash,,Tomer,0.00,CUST-1137,Dine-in
+SQ-20260334,2026-01-01 16:24:00,Halloumi Sandwich,Sandwich,2,38.00,76.00,Credit Card,Amex,Shira,0.00,,Dine-in
+SQ-20260335,2026-01-02 05:00:00,Croissant Plain,Pastry,1,14.00,14.00,Cash,,Ruby,0.00,CUST-1095,Takeaway
+SQ-20260336,2026-01-02 18:28:00,Avocado Toast,Breakfast,1,42.00,42.00,Bit,,Ruby,0.00,CUST-1283,Dine-in
+SQ-20260337,2026-01-03 07:38:00,Yogurt Parfait,Breakfast,2,32.00,64.00,Bit,,Ruby,0.00,,Dine-in
+SQ-20260338,2026-01-03 20:46:00,Lemonade,Drink,1,14.00,14.00,Cash,,Yael,0.00,,Takeaway
+SQ-20260339,2026-01-04 09:10:00,Latte,Coffee,1,18.00,18.00,Cash,,Shira,0.00,CUST-1085,Takeaway
+SQ-20260340,2026-01-04 22:17:00,Muffin Blueberry,Pastry,1,14.00,14.00,Credit Card,Mastercard,Tomer,0.00,,Takeaway
+SQ-20260341,2026-01-05 11:38:00,Yogurt Parfait,Breakfast,1,32.00,32.00,Credit Card,Visa,Tomer,0.00,,Dine-in
+SQ-20260342,2026-01-06 00:53:00,Yogurt Parfait,Breakfast,1,32.00,32.00,Bit,,Shira,0.00,,Takeaway
+SQ-20260343,2026-01-06 13:08:00,Croissant Plain,Pastry,1,14.00,14.00,Cash,,Shira,0.00,,Takeaway
+SQ-20260344,2026-01-07 02:20:00,Croissant Plain,Pastry,2,14.00,28.00,Bit,,Yael,0.00,,Dine-in
+SQ-20260345,2026-01-07 15:52:00,Caesar Salad,Salad,1,46.00,46.00,Credit Card,Isracard,Yael,4.60,,Dine-in
+SQ-20260346,2026-01-08 04:43:00,Salad Bowl,Salad,1,48.00,48.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260347,2026-01-08 17:53:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Bit,,Tomer,1.90,CUST-1155,Dine-in
+SQ-20260348,2026-01-09 06:16:00,Cheese Sandwich,Sandwich,1,32.00,32.00,Bit,,Shira,0.00,,Takeaway
+SQ-20260349,2026-01-09 19:30:00,Granola Bowl,Breakfast,1,38.00,38.00,Apple Pay,,Tomer,1.90,,Dine-in
+SQ-20260350,2026-01-10 08:44:00,Lemonade,Drink,2,14.00,28.00,Google Pay,,Tomer,0.00,CUST-1127,Dine-in
+SQ-20260351,2026-01-10 21:10:00,Tuna Sandwich,Sandwich,2,36.00,72.00,Google Pay,,Tomer,8.64,,Dine-in
+SQ-20260352,2026-01-11 10:50:00,Muffin Blueberry,Pastry,1,14.00,14.00,Credit Card,Mastercard,Yael,1.40,,Takeaway
+SQ-20260353,2026-01-11 23:37:00,Halloumi Sandwich,Sandwich,2,38.00,76.00,Bit,,Tomer,3.80,,Takeaway
+SQ-20260354,2026-01-12 12:44:00,Shakshuka,Breakfast,1,52.00,52.00,Credit Card,Mastercard,Ruby,0.00,,Dine-in
+SQ-20260355,2026-01-13 01:07:00,Water Bottle,Drink,3,8.00,24.00,Credit Card,Mastercard,Tomer,0.00,,Dine-in
+SQ-20260356,2026-01-13 14:33:00,Israeli Breakfast,Breakfast,1,68.00,68.00,Credit Card,Mastercard,Tomer,8.16,,Dine-in
+SQ-20260357,2026-01-14 03:19:00,Americano,Coffee,2,14.00,28.00,Credit Card,Visa,Tomer,3.36,CUST-1084,Dine-in
+SQ-20260358,2026-01-14 16:33:00,Flat White,Coffee,1,18.00,18.00,Bit,,Yael,0.90,,Dine-in
+SQ-20260359,2026-01-15 05:51:00,Cookie,Pastry,2,10.00,20.00,Credit Card,Amex,Tomer,1.00,,Takeaway
+SQ-20260360,2026-01-15 18:56:00,Cold Brew,Coffee,1,20.00,20.00,Bit,,Shira,0.00,,Dine-in
+SQ-20260361,2026-01-16 07:17:00,Salad Bowl,Salad,2,48.00,96.00,Credit Card,Isracard,Ruby,9.60,,Dine-in
+SQ-20260362,2026-01-16 20:12:00,Banana Bread,Pastry,1,18.00,18.00,Bit,,Yael,2.16,,Takeaway
+SQ-20260363,2026-01-17 09:39:00,Cookie,Pastry,2,10.00,20.00,Bit,,Tomer,1.00,,Dine-in
+SQ-20260364,2026-01-17 22:58:00,Yogurt Parfait,Breakfast,2,32.00,64.00,Credit Card,Mastercard,Ruby,0.00,,Dine-in
+SQ-20260365,2026-01-18 11:23:00,Halloumi Sandwich,Sandwich,1,38.00,38.00,Bit,,Shira,3.80,CUST-1196,Takeaway
+SQ-20260366,2026-01-19 00:11:00,Israeli Breakfast,Breakfast,2,68.00,136.00,Credit Card,Isracard,Yael,6.80,,Dine-in
+SQ-20260367,2026-01-19 13:20:00,Water Bottle,Drink,1,8.00,8.00,Credit Card,Mastercard,Ruby,0.40,CUST-1196,Takeaway
+SQ-20260368,2026-01-20 02:32:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Bit,,Shira,4.32,,Takeaway
+SQ-20260369,2026-01-20 15:10:00,Cappuccino,Coffee,1,16.00,16.00,Cash,,Tomer,0.00,CUST-1115,Takeaway
+SQ-20260370,2026-01-21 04:18:00,Flat White,Coffee,2,18.00,36.00,Google Pay,,Tomer,1.80,,Dine-in
+SQ-20260371,2026-01-21 17:36:00,Hafuch,Coffee,1,16.00,16.00,Apple Pay,,Tomer,1.60,,Dine-in
+SQ-20260372,2026-01-22 06:48:00,Veggie Wrap,Sandwich,1,36.00,36.00,Cash,,Shira,0.00,CUST-1334,Dine-in
+SQ-20260373,2026-01-22 19:19:00,Fresh OJ,Drink,3,18.00,54.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260374,2026-01-23 08:28:00,Fresh OJ,Drink,3,18.00,54.00,Cash,,Yael,0.00,,Takeaway
+SQ-20260375,2026-01-23 21:44:00,Scone,Pastry,3,12.00,36.00,Google Pay,,Tomer,1.80,CUST-1071,Dine-in
+SQ-20260376,2026-01-24 10:52:00,Cold Brew,Coffee,2,20.00,40.00,Google Pay,,Tomer,4.00,,Takeaway
+SQ-20260377,2026-01-24 23:10:00,Croissant Chocolate,Pastry,3,16.00,48.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260378,2026-01-25 12:57:00,Cheese Sandwich,Sandwich,2,32.00,64.00,Credit Card,Mastercard,Ruby,0.00,,Dine-in
+SQ-20260379,2026-01-26 01:44:00,Fresh OJ,Drink,1,18.00,18.00,Credit Card,Amex,Tomer,0.00,,Takeaway
+SQ-20260380,2026-01-26 14:31:00,Latte,Coffee,2,18.00,36.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260381,2026-01-27 03:04:00,Tuna Sandwich,Sandwich,2,36.00,72.00,Credit Card,Mastercard,Yael,8.64,,Dine-in
+SQ-20260382,2026-01-27 16:29:00,Israeli Breakfast,Breakfast,1,68.00,68.00,Credit Card,Amex,Ruby,8.16,,Dine-in
+SQ-20260383,2026-01-28 05:54:00,Cappuccino,Coffee,2,16.00,32.00,Bit,,Yael,1.60,,Takeaway
+SQ-20260384,2026-01-28 18:17:00,Croissant Chocolate,Pastry,2,16.00,32.00,Bit,,Yael,3.20,CUST-1248,Dine-in
+SQ-20260385,2026-01-29 07:57:00,Cheese Sandwich,Sandwich,2,32.00,64.00,Credit Card,Visa,Tomer,3.20,CUST-1080,Takeaway
+SQ-20260386,2026-01-29 20:29:00,Espresso,Coffee,3,12.00,36.00,Bit,,Yael,4.32,,Dine-in
+SQ-20260387,2026-01-30 09:10:00,Fresh OJ,Drink,3,18.00,54.00,Cash,,Ruby,0.00,,Dine-in
+SQ-20260388,2026-01-30 22:05:00,Scone,Pastry,2,12.00,24.00,Credit Card,Visa,Shira,2.88,,Dine-in
+SQ-20260389,2026-01-01 11:27:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Credit Card,Visa,Yael,1.80,CUST-1303,Dine-in
+SQ-20260390,2026-01-02 00:33:00,Cheese Sandwich,Sandwich,1,32.00,32.00,Credit Card,Amex,Tomer,0.00,,Takeaway
+SQ-20260391,2026-01-02 13:44:00,Latte,Coffee,1,18.00,18.00,Cash,,Shira,0.00,CUST-1052,Dine-in
+SQ-20260392,2026-01-03 02:20:00,Scone,Pastry,3,12.00,36.00,Credit Card,Mastercard,Yael,4.32,,Dine-in
+SQ-20260393,2026-01-03 15:04:00,Shakshuka,Breakfast,1,52.00,52.00,Google Pay,,Tomer,0.00,,Dine-in
+SQ-20260394,2026-01-04 04:40:00,Veggie Wrap,Sandwich,1,36.00,36.00,Bit,,Yael,4.32,,Dine-in
+SQ-20260395,2026-01-04 17:05:00,Lemonade,Drink,1,14.00,14.00,Credit Card,Isracard,Tomer,0.70,,Takeaway
+SQ-20260396,2026-01-05 06:20:00,Caesar Salad,Salad,1,46.00,46.00,Cash,,Tomer,0.00,CUST-1283,Takeaway
+SQ-20260397,2026-01-05 19:38:00,Veggie Wrap,Sandwich,2,36.00,72.00,Credit Card,Amex,Tomer,0.00,,Takeaway
+SQ-20260398,2026-01-06 08:12:00,Veggie Wrap,Sandwich,1,36.00,36.00,Credit Card,Visa,Shira,1.80,CUST-1255,Takeaway
+SQ-20260399,2026-01-06 21:04:00,Shakshuka,Breakfast,3,52.00,156.00,Credit Card,Mastercard,Tomer,0.00,,Takeaway
+SQ-20260400,2026-01-07 10:26:00,Scone,Pastry,1,12.00,12.00,Credit Card,Mastercard,Ruby,0.00,,Dine-in
+SQ-20260401,2026-01-07 23:16:00,Cold Brew,Coffee,1,20.00,20.00,Credit Card,Mastercard,Yael,0.00,,Takeaway
+SQ-20260402,2026-01-08 12:49:00,Muffin Blueberry,Pastry,1,14.00,14.00,Bit,,Ruby,1.68,,Takeaway
+SQ-20260403,2026-01-09 01:09:00,Macchiato,Coffee,1,14.00,14.00,Credit Card,Isracard,Yael,0.00,,Takeaway
+SQ-20260404,2026-01-09 14:37:00,Tuna Sandwich,Sandwich,2,36.00,72.00,Credit Card,Mastercard,Tomer,3.60,,Dine-in
+SQ-20260405,2026-01-10 03:03:00,Iced Latte,Coffee,1,20.00,20.00,Bit,,Ruby,1.00,,Dine-in
+SQ-20260406,2026-01-10 16:19:00,Cheese Sandwich,Sandwich,2,32.00,64.00,Credit Card,Visa,Ruby,7.68,CUST-1005,Dine-in
+SQ-20260407,2026-01-11 05:31:00,Scone,Pastry,1,12.00,12.00,Cash,,Yael,0.00,,Dine-in
+SQ-20260408,2026-01-11 18:46:00,Lemonade,Drink,1,14.00,14.00,Credit Card,Mastercard,Shira,0.00,,Dine-in
+SQ-20260409,2026-01-12 07:45:00,Granola Bowl,Breakfast,2,38.00,76.00,Bit,,Shira,7.60,,Takeaway
+SQ-20260410,2026-01-12 20:54:00,Granola Bowl,Breakfast,1,38.00,38.00,Credit Card,Mastercard,Ruby,3.80,,Dine-in
+SQ-20260411,2026-01-13 09:14:00,Veggie Wrap,Sandwich,1,36.00,36.00,Credit Card,Visa,Yael,0.00,,Takeaway
+SQ-20260412,2026-01-13 22:58:00,Latte,Coffee,1,18.00,18.00,Credit Card,Isracard,Tomer,2.16,,Dine-in
+SQ-20260413,2026-01-14 11:20:00,Iced Latte,Coffee,1,20.00,20.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260414,2026-01-15 00:32:00,Cheese Sandwich,Sandwich,3,32.00,96.00,Credit Card,Visa,Yael,0.00,,Dine-in
+SQ-20260415,2026-01-15 13:56:00,Banana Bread,Pastry,3,18.00,54.00,Cash,,Tomer,0.00,CUST-1233,Dine-in
+SQ-20260416,2026-01-16 02:23:00,Cold Brew,Coffee,1,20.00,20.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260417,2026-01-16 15:23:00,Granola Bowl,Breakfast,3,38.00,114.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260418,2026-01-17 04:09:00,Espresso,Coffee,3,12.00,36.00,Credit Card,Visa,Yael,0.00,,Dine-in
+SQ-20260419,2026-01-17 18:00:00,Croissant Chocolate,Pastry,1,16.00,16.00,Bit,,Tomer,1.92,,Dine-in
+SQ-20260420,2026-01-18 06:33:00,Iced Latte,Coffee,1,20.00,20.00,Credit Card,Visa,Tomer,0.00,CUST-1118,Takeaway
+SQ-20260421,2026-01-18 19:26:00,Halloumi Sandwich,Sandwich,3,38.00,114.00,Bit,,Tomer,0.00,,Takeaway
+SQ-20260422,2026-01-19 08:08:00,Tuna Sandwich,Sandwich,2,36.00,72.00,Credit Card,Isracard,Yael,0.00,,Dine-in
+SQ-20260423,2026-01-19 21:15:00,Croissant Plain,Pastry,1,14.00,14.00,Bit,,Shira,1.68,,Dine-in
+SQ-20260424,2026-01-20 10:20:00,Banana Bread,Pastry,1,18.00,18.00,Credit Card,Visa,Yael,1.80,CUST-1054,Dine-in
+SQ-20260425,2026-01-20 23:28:00,Banana Bread,Pastry,1,18.00,18.00,Credit Card,Isracard,Tomer,0.00,,Takeaway
+SQ-20260426,2026-01-21 12:16:00,Fresh OJ,Drink,1,18.00,18.00,Credit Card,Amex,Tomer,2.16,,Dine-in
+SQ-20260427,2026-01-22 01:13:00,Water Bottle,Drink,2,8.00,16.00,Credit Card,Visa,Tomer,0.00,,Takeaway
+SQ-20260428,2026-01-22 14:32:00,Americano,Coffee,2,14.00,28.00,Cash,,Yael,0.00,CUST-1207,Takeaway
+SQ-20260429,2026-01-23 03:35:00,Veggie Wrap,Sandwich,1,36.00,36.00,Credit Card,Mastercard,Ruby,0.00,CUST-1031,Dine-in
+SQ-20260430,2026-01-23 16:08:00,Cold Brew,Coffee,2,20.00,40.00,Bit,,Tomer,4.80,,Dine-in
+SQ-20260431,2026-01-24 05:37:00,Granola Bowl,Breakfast,1,38.00,38.00,Credit Card,Visa,Ruby,0.00,,Takeaway
+SQ-20260432,2026-01-24 18:51:00,Latte,Coffee,1,18.00,18.00,Bit,,Ruby,0.00,,Dine-in
+SQ-20260433,2026-01-25 07:10:00,Beer (Tap),Drink,2,28.00,56.00,Bit,,Shira,0.00,,Takeaway
+SQ-20260434,2026-01-25 20:11:00,Scone,Pastry,1,12.00,12.00,Credit Card,Mastercard,Tomer,0.60,,Dine-in
+SQ-20260435,2026-01-26 09:39:00,Yogurt Parfait,Breakfast,2,32.00,64.00,Cash,,Shira,0.00,,Takeaway
+SQ-20260436,2026-01-26 22:30:00,Americano,Coffee,1,14.00,14.00,Bit,,Yael,0.70,,Takeaway
+SQ-20260437,2026-01-27 11:15:00,Tuna Sandwich,Sandwich,3,36.00,108.00,Apple Pay,,Ruby,5.40,,Dine-in
+SQ-20260438,2026-01-28 00:30:00,Avocado Toast,Breakfast,2,42.00,84.00,Bit,,Yael,8.40,,Dine-in
+SQ-20260439,2026-01-28 13:11:00,Espresso,Coffee,1,12.00,12.00,Cash,,Ruby,0.00,,Dine-in
+SQ-20260440,2026-01-29 02:03:00,Caesar Salad,Salad,3,46.00,138.00,Apple Pay,,Tomer,13.80,,Dine-in
+SQ-20260441,2026-01-29 15:06:00,Iced Latte,Coffee,2,20.00,40.00,Cash,,Yael,0.00,,Dine-in
+SQ-20260442,2026-01-30 04:48:00,Iced Latte,Coffee,2,20.00,40.00,Bit,,Tomer,0.00,CUST-1303,Dine-in
+SQ-20260443,2026-01-30 17:51:00,Veggie Wrap,Sandwich,2,36.00,72.00,Google Pay,,Ruby,8.64,,Takeaway
+SQ-20260444,2026-01-31 06:36:00,Latte,Coffee,1,18.00,18.00,Cash,,Shira,0.00,,Dine-in
+SQ-20260445,2026-01-01 19:31:00,Americano,Coffee,1,14.00,14.00,Cash,,Yael,0.00,,Takeaway
+SQ-20260446,2026-01-02 08:30:00,Espresso,Coffee,1,12.00,12.00,Google Pay,,Yael,0.00,,Dine-in
+SQ-20260447,2026-01-02 21:58:00,Caesar Salad,Salad,2,46.00,92.00,Bit,,Ruby,0.00,CUST-1072,Dine-in
+SQ-20260448,2026-01-03 10:54:00,Shakshuka,Breakfast,3,52.00,156.00,Credit Card,Mastercard,Tomer,18.72,,Dine-in
+SQ-20260449,2026-01-03 23:21:00,Croissant Plain,Pastry,1,14.00,14.00,Credit Card,Amex,Shira,1.68,,Dine-in
+SQ-20260450,2026-01-04 12:11:00,Halloumi Sandwich,Sandwich,3,38.00,114.00,Google Pay,,Tomer,0.00,,Dine-in
+SQ-20260451,2026-01-05 01:24:00,Croissant Plain,Pastry,2,14.00,28.00,Cash,,Yael,0.00,CUST-1000,Takeaway
+SQ-20260452,2026-01-05 14:25:00,Fresh OJ,Drink,3,18.00,54.00,Google Pay,,Ruby,0.00,,Takeaway
+SQ-20260453,2026-01-06 03:14:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Bit,,Yael,0.00,,Dine-in
+SQ-20260454,2026-01-06 16:22:00,Croissant Chocolate,Pastry,1,16.00,16.00,Credit Card,Amex,Tomer,1.92,,Dine-in
+SQ-20260455,2026-01-07 05:28:00,Espresso,Coffee,1,12.00,12.00,Cash,,Tomer,0.00,CUST-1131,Dine-in
+SQ-20260456,2026-01-07 18:46:00,Espresso,Coffee,1,12.00,12.00,Bit,,Tomer,0.60,,Takeaway
+SQ-20260457,2026-01-08 07:31:00,Lemonade,Drink,1,14.00,14.00,Apple Pay,,Shira,0.00,,Takeaway
+SQ-20260458,2026-01-08 20:41:00,Salad Bowl,Salad,2,48.00,96.00,Credit Card,Mastercard,Ruby,0.00,,Dine-in
+SQ-20260459,2026-01-09 09:16:00,Hafuch,Coffee,1,16.00,16.00,Credit Card,Mastercard,Yael,1.92,CUST-1047,Dine-in
+SQ-20260460,2026-01-09 22:38:00,Yogurt Parfait,Breakfast,3,32.00,96.00,Credit Card,Mastercard,Tomer,0.00,,Takeaway
+SQ-20260461,2026-01-10 11:10:00,Americano,Coffee,1,14.00,14.00,Cash,,Yael,0.00,,Takeaway
+SQ-20260462,2026-01-11 00:46:00,Beer (Tap),Drink,2,28.00,56.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260463,2026-01-11 13:06:00,Americano,Coffee,1,14.00,14.00,Apple Pay,,Shira,0.00,CUST-1001,Takeaway
+SQ-20260464,2026-01-12 02:05:00,Croissant Plain,Pastry,2,14.00,28.00,Google Pay,,Shira,0.00,CUST-1105,Dine-in
+SQ-20260465,2026-01-12 15:40:00,Croissant Plain,Pastry,3,14.00,42.00,Bit,,Ruby,0.00,,Takeaway
+SQ-20260466,2026-01-13 04:31:00,Lemonade,Drink,2,14.00,28.00,Credit Card,Amex,Yael,1.40,,Takeaway
+SQ-20260467,2026-01-13 17:23:00,Flat White,Coffee,1,18.00,18.00,Cash,,Shira,0.00,,Dine-in
+SQ-20260468,2026-01-14 06:53:00,Macchiato,Coffee,1,14.00,14.00,Credit Card,Amex,Tomer,0.00,CUST-1176,Takeaway
+SQ-20260469,2026-01-14 19:26:00,Salad Bowl,Salad,2,48.00,96.00,Apple Pay,,Ruby,4.80,,Takeaway
+SQ-20260470,2026-01-15 08:34:00,Cheese Sandwich,Sandwich,3,32.00,96.00,Bit,,Yael,0.00,,Dine-in
+SQ-20260471,2026-01-15 21:25:00,Lemonade,Drink,2,14.00,28.00,Credit Card,Isracard,Yael,2.80,,Takeaway
+SQ-20260472,2026-01-16 10:09:00,Hafuch,Coffee,3,16.00,48.00,Bit,,Yael,0.00,,Dine-in
+SQ-20260473,2026-01-16 23:08:00,Americano,Coffee,1,14.00,14.00,Bit,,Yael,1.68,CUST-1304,Dine-in
+SQ-20260474,2026-01-17 12:20:00,Beer (Tap),Drink,2,28.00,56.00,Credit Card,Visa,Shira,5.60,,Dine-in
+SQ-20260475,2026-01-18 01:54:00,Macchiato,Coffee,1,14.00,14.00,Credit Card,Amex,Yael,1.40,,Takeaway
+SQ-20260476,2026-01-18 14:07:00,Muffin Blueberry,Pastry,1,14.00,14.00,Google Pay,,Yael,1.40,,Dine-in
+SQ-20260477,2026-01-19 03:59:00,Hafuch,Coffee,1,16.00,16.00,Credit Card,Mastercard,Yael,0.00,,Dine-in
+SQ-20260478,2026-01-19 16:24:00,Tuna Sandwich,Sandwich,1,36.00,36.00,Google Pay,,Shira,0.00,CUST-1206,Dine-in
+SQ-20260479,2026-01-20 05:39:00,Yogurt Parfait,Breakfast,2,32.00,64.00,Bit,,Ruby,3.20,,Dine-in
+SQ-20260480,2026-01-20 18:44:00,Iced Latte,Coffee,1,20.00,20.00,Bit,,Tomer,0.00,CUST-1155,Dine-in
+SQ-20260481,2026-01-21 07:17:00,Water Bottle,Drink,1,8.00,8.00,Credit Card,Visa,Yael,0.00,,Takeaway
+SQ-20260482,2026-01-21 20:49:00,Water Bottle,Drink,1,8.00,8.00,Bit,,Yael,0.96,CUST-1226,Dine-in
+SQ-20260483,2026-01-22 09:58:00,Water Bottle,Drink,1,8.00,8.00,Bit,,Yael,0.00,,Takeaway
+SQ-20260484,2026-01-22 22:50:00,Flat White,Coffee,1,18.00,18.00,Apple Pay,,Shira,0.00,,Takeaway
+SQ-20260485,2026-01-23 11:56:00,Granola Bowl,Breakfast,1,38.00,38.00,Cash,,Yael,0.00,,Dine-in
+SQ-20260486,2026-01-24 00:02:00,Banana Bread,Pastry,1,18.00,18.00,Bit,,Tomer,0.00,,Takeaway
+SQ-20260487,2026-01-24 13:32:00,Cookie,Pastry,2,10.00,20.00,Credit Card,Amex,Ruby,0.00,,Takeaway
+SQ-20260488,2026-01-25 02:28:00,Flat White,Coffee,3,18.00,54.00,Bit,,Yael,5.40,,Dine-in
+SQ-20260489,2026-01-25 15:53:00,Lemonade,Drink,1,14.00,14.00,Credit Card,Mastercard,Ruby,0.70,CUST-1292,Dine-in
+SQ-20260490,2026-01-26 04:54:00,Iced Latte,Coffee,2,20.00,40.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260491,2026-01-26 17:01:00,Fresh OJ,Drink,2,18.00,36.00,Credit Card,Mastercard,Yael,4.32,CUST-1004,Dine-in
+SQ-20260492,2026-01-27 06:16:00,Yogurt Parfait,Breakfast,2,32.00,64.00,Cash,,Tomer,0.00,,Dine-in
+SQ-20260493,2026-01-27 19:27:00,Lemonade,Drink,1,14.00,14.00,Bit,,Shira,0.00,,Dine-in
+SQ-20260494,2026-01-28 08:43:00,Shakshuka,Breakfast,2,52.00,104.00,Bit,,Yael,0.00,CUST-1339,Dine-in
+SQ-20260495,2026-01-28 21:35:00,Tuna Sandwich,Sandwich,2,36.00,72.00,Cash,,Tomer,0.00,,Takeaway
+SQ-20260496,2026-01-29 10:04:00,Croissant Chocolate,Pastry,3,16.00,48.00,Bit,,Tomer,0.00,,Dine-in
+SQ-20260497,2026-01-29 23:12:00,Latte,Coffee,1,18.00,18.00,Cash,,Ruby,0.00,,Takeaway
+SQ-20260498,2026-01-30 12:25:00,Cheese Sandwich,Sandwich,1,32.00,32.00,Credit Card,Amex,Ruby,3.84,,Dine-in
+SQ-20260499,2026-01-31 01:16:00,Beer (Tap),Drink,1,28.00,28.00,Bit,,Tomer,0.00,,Takeaway
+SQ-20260500,2026-01-01 14:52:00,Cold Brew,Coffee,1,20.00,20.00,Cash,,Tomer,0.00,,Takeaway

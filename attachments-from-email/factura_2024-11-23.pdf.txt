@@ -1,0 +1,22 @@
+[PDF placeholder - file was a Spanish-language invoice]
+
+FACTURA No. 2024-11-23-4427
+Café Importador S.L.
+NIF: B12345678
+Calle Mayor 42, Madrid
+
+Cliente: Atomic Cafe (Israel)
+
+Producto: Café de origen colombiano - Premium
+Cantidad: 25 kg
+Precio unitario: €18,40
+Subtotal: €460,00
+IVA (21%): €96,60
+TOTAL: €556,60
+
+Pago: Transferencia bancaria
+Plazo: 30 días
+
+---
+
+(נועם: לא זוכר למה הזמנו מספרד פעם אחת. ניסיון? לא חזרנו אליהם)

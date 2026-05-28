@@ -1,0 +1,28 @@
+============================================================
+RECUVA - File Recovery Output
+Recovered: 2024-09-12 14:24:55
+Source: /Volumes/BACKUP_DRIVE/Users/noam/Documents/
+Original filename: meeting_notes_[?].docx
+Recovery confidence: 31%
+============================================================
+
+PK��������������������������������word/document.xml���
+
+ישיבת צוות - 14/0?/202?
+
+נוכחים: נועם, יוסי, ד��, ש���
+חסר: רותם (חופש)
+
+נושאים:
+1. תקציב לרבעון - חרגנו ב-
+2. צוות חדש - מתי מתחיל?
+3.
+
+[CONTENT TRUNCATED - SECTOR READ ERROR AT 0x4F2A]
+
+החלטות:
+- ל��יים את הספק של הגבינות
+- לבדוק
+-
+
+** end of recoverable data **
