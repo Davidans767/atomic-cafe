@@ -98,6 +98,16 @@ button:disabled { opacity: 0.6; cursor: default; }
 .preview-table td.num { font-variant-numeric: tabular-nums; }
 .preview-table tr.changed td.num { color: var(--accent); }
 .preview-table tr.bad td.num { color: var(--err); }
+.preview-table th.chk, .preview-table td.chk { width: 28px; text-align: center; }
+.preview-table td.chk input, .preview-table th.chk input { width: 15px; height: 15px; }
+.preview-table tr.off td:not(.chk) { opacity: 0.4; }
+
+.preview-actions {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 8px; padding: 8px 10px; background: var(--chip); border-top: 1px solid var(--line);
+}
+.sel-count { font-size: 12px; color: var(--muted); }
+button.small { flex: 0 0 auto; padding: 7px 14px; font-size: 13px; }
 
 footer { margin-top: 12px; text-align: center; }
 footer a { color: var(--muted); font-size: 11px; }

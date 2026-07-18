@@ -192,20 +192,22 @@ async function previewTab(tabId, config) {
   };
 }
 
-async function runOnce(tabId, config, interactive) {
-  await guardTab(tabId);
-
-  const extracted = await extractFromTab(tabId, config);
+// Write an already-built {title, raw, values} object to the chosen destination.
+async function writeExtracted(extracted, config, interactive) {
   const values = pickValues(extracted, config);
   if (!values.length) {
-    return { ok: true, count: 0, target: 'לא נמצאו מספרים בדף / no numbers found', url: null };
+    return { ok: true, count: 0, target: 'לא נמצאו מספרים / no numbers', url: null };
   }
-
   const dest = config.destination === 'excel'
     ? await sendToExcel(extracted, config)
     : await sendToSheets(extracted, config, interactive);
-
   return { ok: true, count: values.length, target: dest.target, url: dest.url || null };
+}
+
+async function runOnce(tabId, config, interactive) {
+  await guardTab(tabId);
+  const extracted = await extractFromTab(tabId, config);
+  return writeExtracted(extracted, config, interactive);
 }
 
 // ---- timer ---------------------------------------------------------------
@@ -246,6 +248,11 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     try {
       if (msg.type === 'preview') {
         sendResponse(await previewTab(msg.tabId, msg.config));
+      } else if (msg.type === 'writeValues') {
+        const extracted = { title: msg.title, raw: msg.raw || [], values: msg.values || [] };
+        const res = await writeExtracted(extracted, msg.config, true);
+        await chrome.storage.local.set({ lastRun: { ...res, at: Date.now(), timer: false } });
+        sendResponse(res);
       } else if (msg.type === 'run') {
         const res = await runOnce(msg.tabId, msg.config, true);
         await chrome.storage.local.set({ lastRun: { ...res, at: Date.now(), timer: false } });

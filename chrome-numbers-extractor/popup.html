@@ -83,12 +83,19 @@
     <div class="preview-scroll">
       <table class="preview-table">
         <thead>
-          <tr><th>#</th><th>ערך מקורי</th><th>ערך מנוקה</th></tr>
+          <tr>
+            <th class="chk"><input type="checkbox" id="selectAll" checked title="סמן/נקה הכול" /></th>
+            <th>#</th><th>ערך מקורי</th><th>ערך מנוקה</th>
+          </tr>
         </thead>
         <tbody id="previewBody"></tbody>
       </table>
     </div>
     <p class="hint" id="previewNote" hidden></p>
+    <div class="preview-actions">
+      <span id="previewSelected" class="sel-count"></span>
+      <button id="writeSelectedBtn" class="primary small">כתוב נבחרים</button>
+    </div>
   </section>
 
   <footer>

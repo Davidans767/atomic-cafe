@@ -32,9 +32,13 @@ const els = {
   previewBody: $('previewBody'),
   previewClose: $('previewClose'),
   previewNote: $('previewNote'),
+  selectAll: $('selectAll'),
+  previewSelected: $('previewSelected'),
+  writeSelectedBtn: $('writeSelectedBtn'),
 };
 
 const PREVIEW_LIMIT = 500;
+let lastPreview = null; // { raw, values, title }
 
 let destination = DEFAULT_CONFIG.destination;
 
@@ -134,7 +138,29 @@ els.runBtn.addEventListener('click', async () => {
   }
 });
 
-function renderPreview(raw, values) {
+function rowCheckboxes() {
+  return els.previewBody.querySelectorAll('input[type="checkbox"]');
+}
+
+function updateSelectedCount() {
+  const boxes = rowCheckboxes();
+  let checked = 0;
+  for (const b of boxes) {
+    const on = b.checked;
+    b.closest('tr').classList.toggle('off', !on);
+    if (on) checked++;
+  }
+  const total = lastPreview ? lastPreview.raw.length : 0;
+  const hiddenExtra = total - boxes.length; // rows beyond PREVIEW_LIMIT (always written)
+  const willWrite = checked + hiddenExtra;
+  els.selectAll.checked = boxes.length > 0 && checked === boxes.length;
+  els.selectAll.indeterminate = checked > 0 && checked < boxes.length;
+  els.previewSelected.textContent = `נבחרו ${willWrite} מתוך ${total}`;
+  els.writeSelectedBtn.disabled = willWrite === 0;
+}
+
+function renderPreview(raw, values, title) {
+  lastPreview = { raw, values, title };
   els.previewBody.textContent = '';
   const shown = Math.min(raw.length, PREVIEW_LIMIT);
   const frag = document.createDocumentFragment();
@@ -142,8 +168,18 @@ function renderPreview(raw, values) {
     const num = values[i];
     const tr = document.createElement('tr');
     const bad = !Number.isFinite(num);
-    if (bad) tr.className = 'bad';
-    else if (String(num) !== String(raw[i])) tr.className = 'changed';
+    if (bad) tr.classList.add('bad');
+    else if (String(num) !== String(raw[i])) tr.classList.add('changed');
+
+    const chkTd = document.createElement('td');
+    chkTd.className = 'chk';
+    const chk = document.createElement('input');
+    chk.type = 'checkbox';
+    chk.checked = true;
+    chk.dataset.i = String(i);
+    chk.addEventListener('change', updateSelectedCount);
+    chkTd.appendChild(chk);
+    tr.appendChild(chkTd);
 
     const cells = [
       { t: String(i + 1), c: 'idx' },
@@ -161,11 +197,50 @@ function renderPreview(raw, values) {
   els.previewBody.appendChild(frag);
   els.previewCount.textContent = `נמצאו ${raw.length} מספרים`;
   els.previewNote.hidden = raw.length <= PREVIEW_LIMIT;
-  els.previewNote.textContent = `מוצגים ${PREVIEW_LIMIT} הראשונים מתוך ${raw.length}. כולם ייכתבו לגיליון.`;
+  els.previewNote.textContent = `מוצגות ${PREVIEW_LIMIT} שורות ראשונות מתוך ${raw.length}; השורות שמעבר לכך נכתבות תמיד.`;
   els.preview.hidden = false;
+  updateSelectedCount();
 }
 
+els.selectAll.addEventListener('change', () => {
+  for (const b of rowCheckboxes()) b.checked = els.selectAll.checked;
+  updateSelectedCount();
+});
+
 els.previewClose.addEventListener('click', () => { els.preview.hidden = true; });
+
+els.writeSelectedBtn.addEventListener('click', async () => {
+  if (!lastPreview) return;
+  const boxes = rowCheckboxes();
+  const keep = new Set();
+  for (const b of boxes) if (b.checked) keep.add(Number(b.dataset.i));
+  // Rows beyond the display limit were never rendered — always include them.
+  for (let i = boxes.length; i < lastPreview.raw.length; i++) keep.add(i);
+
+  const raw = [];
+  const values = [];
+  for (let i = 0; i < lastPreview.raw.length; i++) {
+    if (keep.has(i)) { raw.push(lastPreview.raw[i]); values.push(lastPreview.values[i]); }
+  }
+  if (!raw.length) return setStatus('err', 'לא נבחרו מספרים.');
+
+  els.writeSelectedBtn.disabled = true;
+  setStatus('', 'כותב נבחרים…');
+  const res = await send({
+    type: 'writeValues',
+    title: lastPreview.title,
+    raw,
+    values,
+    config: readConfig(),
+  });
+  els.writeSelectedBtn.disabled = false;
+  if (!res || res.ok === false) {
+    setStatus('err', `שגיאה: ${res?.error || 'לא ידועה'}`);
+  } else {
+    const link = res.url ? ` — <a href="${res.url}" target="_blank" rel="noopener">פתח</a>` : '';
+    setStatus('ok', `✓ הוזנו ${res.count} מספרים → ${res.target}${link}`);
+  }
+});
 
 els.previewBtn.addEventListener('click', async () => {
   const tab = await activeTab();
@@ -183,7 +258,7 @@ els.previewBtn.addEventListener('click', async () => {
     return setStatus('ok', 'לא נמצאו מספרים בדף.');
   }
   els.status.hidden = true;
-  renderPreview(res.raw, res.values);
+  renderPreview(res.raw, res.values, res.title);
 });
 
 els.timerToggle.addEventListener('click', async () => {
