@@ -1,0 +1,81 @@
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a2e;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+  --accent: #2563eb;
+  --accent-fg: #ffffff;
+  --ok: #047857;
+  --err: #b91c1c;
+  --chip: #f3f4f6;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16181d;
+    --fg: #e5e7eb;
+    --muted: #9ca3af;
+    --line: #2a2e37;
+    --accent: #3b82f6;
+    --chip: #23262e;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  width: 340px;
+  font-family: "Segoe UI", Arial, "Noto Sans Hebrew", sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 14px;
+  padding: 14px;
+}
+header h1 { font-size: 16px; margin: 0 0 2px; }
+header .sub { margin: 0 0 10px; color: var(--muted); font-size: 12px; }
+
+.group { margin-bottom: 12px; }
+.field-label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 5px; }
+.row { display: flex; gap: 10px; }
+.col { flex: 1; }
+
+input[type="text"], input[type="number"], select {
+  width: 100%;
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--fg);
+  font: inherit;
+}
+input:focus, select:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+
+.segmented { display: flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg {
+  flex: 1; padding: 8px; border: 0; background: var(--bg); color: var(--fg);
+  cursor: pointer; font: inherit;
+}
+.seg.active { background: var(--accent); color: var(--accent-fg); }
+
+.checkbox { display: flex; align-items: center; gap: 8px; margin-bottom: 7px; cursor: pointer; }
+.checkbox input { width: 16px; height: 16px; }
+
+.hint { font-size: 11px; color: var(--muted); margin: 6px 0 0; }
+
+.actions { display: flex; gap: 8px; margin-top: 4px; }
+button.primary, button.secondary {
+  flex: 1; padding: 10px; border-radius: 8px; border: 0; cursor: pointer; font: inherit; font-weight: 600;
+}
+button.primary { background: var(--accent); color: var(--accent-fg); }
+button.secondary { background: var(--chip); color: var(--fg); border: 1px solid var(--line); }
+button:disabled { opacity: 0.6; cursor: default; }
+
+.status {
+  margin-top: 12px; padding: 9px 11px; border-radius: 8px; font-size: 12.5px;
+  background: var(--chip); border: 1px solid var(--line);
+}
+.status.ok { color: var(--ok); }
+.status.err { color: var(--err); }
+.status a { color: var(--accent); }
+
+footer { margin-top: 12px; text-align: center; }
+footer a { color: var(--muted); font-size: 11px; }

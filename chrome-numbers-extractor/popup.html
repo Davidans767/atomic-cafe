@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="popup.css" />
+  <title>מחלץ מספרים</title>
+</head>
+<body>
+  <header>
+    <h1>מחלץ מספרים לגיליון</h1>
+    <p class="sub">מעתיק את כל המספרים בדף לפי סדר הופעתם</p>
+  </header>
+
+  <section class="group">
+    <label class="field-label">יעד</label>
+    <div class="segmented" id="destination">
+      <button type="button" data-value="sheets" class="seg active">Google Sheets</button>
+      <button type="button" data-value="excel" class="seg">Excel (מקומי)</button>
+    </div>
+  </section>
+
+  <section class="group row">
+    <div class="col">
+      <label class="field-label" for="column">עמודה</label>
+      <input id="column" type="text" value="A" maxlength="3" spellcheck="false" />
+    </div>
+    <div class="col">
+      <label class="field-label" for="valueMode">ערכים</label>
+      <select id="valueMode">
+        <option value="numeric">מספרים (מנוקים)</option>
+        <option value="raw">טקסט מקורי</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="group" id="excelOptions" hidden>
+    <label class="field-label" for="excelFolder">תיקיית שמירה (יחסית לתיקיית ההורדות)</label>
+    <input id="excelFolder" type="text" value="tik/111" spellcheck="false" />
+    <p class="hint" id="excelPathHint"></p>
+  </section>
+
+  <section class="group">
+    <label class="checkbox">
+      <input type="checkbox" id="includeInputs" checked />
+      <span>לכלול ערכים משדות טופס</span>
+    </label>
+    <label class="checkbox">
+      <input type="checkbox" id="visibleOnly" checked />
+      <span>רק אלמנטים גלויים</span>
+    </label>
+  </section>
+
+  <section class="group">
+    <label class="checkbox">
+      <input type="checkbox" id="timerEnabled" />
+      <span>ריצה חוזרת עם טיימר</span>
+    </label>
+    <div class="row timer-row" id="timerRow" hidden>
+      <div class="col">
+        <label class="field-label" for="intervalSec">מרווח (שניות)</label>
+        <input id="intervalSec" type="number" min="30" step="10" value="60" />
+      </div>
+      <p class="hint">מינימום 30 שניות (מגבלת Chrome).</p>
+    </div>
+  </section>
+
+  <div class="actions">
+    <button id="runBtn" class="primary">הרץ עכשיו</button>
+    <button id="timerToggle" class="secondary" hidden>הפעל טיימר</button>
+  </div>
+
+  <div id="status" class="status" hidden></div>
+
+  <footer>
+    <a href="README.md" target="_blank" rel="noopener">הגדרות והרשאות (README)</a>
+  </footer>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>
