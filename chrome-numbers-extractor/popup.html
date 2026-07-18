@@ -66,11 +66,30 @@
   </section>
 
   <div class="actions">
+    <button id="previewBtn" class="secondary">תצוגה מקדימה</button>
     <button id="runBtn" class="primary">הרץ עכשיו</button>
+  </div>
+  <div class="actions">
     <button id="timerToggle" class="secondary" hidden>הפעל טיימר</button>
   </div>
 
   <div id="status" class="status" hidden></div>
+
+  <section id="preview" class="preview" hidden>
+    <div class="preview-head">
+      <span id="previewCount"></span>
+      <button id="previewClose" class="link-btn" type="button">סגור</button>
+    </div>
+    <div class="preview-scroll">
+      <table class="preview-table">
+        <thead>
+          <tr><th>#</th><th>ערך מקורי</th><th>ערך מנוקה</th></tr>
+        </thead>
+        <tbody id="previewBody"></tbody>
+      </table>
+    </div>
+    <p class="hint" id="previewNote" hidden></p>
+  </section>
 
   <footer>
     <a href="README.md" target="_blank" rel="noopener">הגדרות והרשאות (README)</a>

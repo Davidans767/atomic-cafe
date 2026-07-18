@@ -24,9 +24,17 @@ const els = {
   timerRow: $('timerRow'),
   intervalSec: $('intervalSec'),
   runBtn: $('runBtn'),
+  previewBtn: $('previewBtn'),
   timerToggle: $('timerToggle'),
   status: $('status'),
+  preview: $('preview'),
+  previewCount: $('previewCount'),
+  previewBody: $('previewBody'),
+  previewClose: $('previewClose'),
+  previewNote: $('previewNote'),
 };
+
+const PREVIEW_LIMIT = 500;
 
 let destination = DEFAULT_CONFIG.destination;
 
@@ -124,6 +132,58 @@ els.runBtn.addEventListener('click', async () => {
     const link = res.url ? ` — <a href="${res.url}" target="_blank" rel="noopener">פתח</a>` : '';
     setStatus('ok', `✓ הוזנו ${res.count} מספרים → ${res.target}${link}`);
   }
+});
+
+function renderPreview(raw, values) {
+  els.previewBody.textContent = '';
+  const shown = Math.min(raw.length, PREVIEW_LIMIT);
+  const frag = document.createDocumentFragment();
+  for (let i = 0; i < shown; i++) {
+    const num = values[i];
+    const tr = document.createElement('tr');
+    const bad = !Number.isFinite(num);
+    if (bad) tr.className = 'bad';
+    else if (String(num) !== String(raw[i])) tr.className = 'changed';
+
+    const cells = [
+      { t: String(i + 1), c: 'idx' },
+      { t: raw[i], c: '' },
+      { t: bad ? '—' : String(num), c: 'num' },
+    ];
+    for (const cell of cells) {
+      const td = document.createElement('td');
+      td.textContent = cell.t;
+      if (cell.c) td.className = cell.c;
+      tr.appendChild(td);
+    }
+    frag.appendChild(tr);
+  }
+  els.previewBody.appendChild(frag);
+  els.previewCount.textContent = `נמצאו ${raw.length} מספרים`;
+  els.previewNote.hidden = raw.length <= PREVIEW_LIMIT;
+  els.previewNote.textContent = `מוצגים ${PREVIEW_LIMIT} הראשונים מתוך ${raw.length}. כולם ייכתבו לגיליון.`;
+  els.preview.hidden = false;
+}
+
+els.previewClose.addEventListener('click', () => { els.preview.hidden = true; });
+
+els.previewBtn.addEventListener('click', async () => {
+  const tab = await activeTab();
+  if (!tab) return setStatus('err', 'לא נמצאה כרטיסייה פעילה.');
+  els.previewBtn.disabled = true;
+  setStatus('', 'סורק את הדף…');
+  const res = await send({ type: 'preview', tabId: tab.id, config: readConfig() });
+  els.previewBtn.disabled = false;
+  if (!res || res.ok === false) {
+    els.preview.hidden = true;
+    return setStatus('err', `שגיאה: ${res?.error || 'לא ידועה'}`);
+  }
+  if (res.count === 0) {
+    els.preview.hidden = true;
+    return setStatus('ok', 'לא נמצאו מספרים בדף.');
+  }
+  els.status.hidden = true;
+  renderPreview(res.raw, res.values);
 });
 
 els.timerToggle.addEventListener('click', async () => {

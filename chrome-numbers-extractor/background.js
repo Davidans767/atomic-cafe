@@ -170,12 +170,30 @@ async function sendToExcel(extracted, config) {
 
 // ---- run one cycle -------------------------------------------------------
 
-async function runOnce(tabId, config, interactive) {
+async function guardTab(tabId) {
   const tab = await chrome.tabs.get(tabId).catch(() => null);
   if (!tab) throw new Error('הכרטיסייה נסגרה / tab closed');
   if (/^(chrome|edge|about|chrome-extension|devtools):/i.test(tab.url || '')) {
     throw new Error('לא ניתן לקרוא מדף מערכת של הדפדפן / cannot read a browser system page');
   }
+  return tab;
+}
+
+// Extract only, write nothing — powers the in-popup preview.
+async function previewTab(tabId, config) {
+  await guardTab(tabId);
+  const extracted = await extractFromTab(tabId, config);
+  return {
+    ok: true,
+    title: extracted.title,
+    raw: extracted.raw,
+    values: extracted.values,
+    count: extracted.raw.length,
+  };
+}
+
+async function runOnce(tabId, config, interactive) {
+  await guardTab(tabId);
 
   const extracted = await extractFromTab(tabId, config);
   const values = pickValues(extracted, config);
@@ -226,7 +244,9 @@ chrome.alarms.onAlarm.addListener(async (alarm) => {
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   (async () => {
     try {
-      if (msg.type === 'run') {
+      if (msg.type === 'preview') {
+        sendResponse(await previewTab(msg.tabId, msg.config));
+      } else if (msg.type === 'run') {
         const res = await runOnce(msg.tabId, msg.config, true);
         await chrome.storage.local.set({ lastRun: { ...res, at: Date.now(), timer: false } });
         sendResponse(res);

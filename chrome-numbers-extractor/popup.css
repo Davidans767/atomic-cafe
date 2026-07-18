@@ -77,5 +77,27 @@ button:disabled { opacity: 0.6; cursor: default; }
 .status.err { color: var(--err); }
 .status a { color: var(--accent); }
 
+.actions + .actions { margin-top: 8px; }
+
+.preview { margin-top: 12px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.preview-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 7px 10px; background: var(--chip); font-size: 12.5px; font-weight: 600;
+}
+.link-btn { background: none; border: 0; color: var(--accent); cursor: pointer; font: inherit; padding: 0; }
+.preview-scroll { max-height: 220px; overflow-y: auto; }
+.preview-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.preview-table th, .preview-table td {
+  padding: 4px 8px; text-align: right; border-bottom: 1px solid var(--line);
+}
+.preview-table thead th {
+  position: sticky; top: 0; background: var(--bg); color: var(--muted);
+  font-weight: 600; font-size: 11.5px;
+}
+.preview-table td.idx { color: var(--muted); width: 34px; }
+.preview-table td.num { font-variant-numeric: tabular-nums; }
+.preview-table tr.changed td.num { color: var(--accent); }
+.preview-table tr.bad td.num { color: var(--err); }
+
 footer { margin-top: 12px; text-align: center; }
 footer a { color: var(--muted); font-size: 11px; }
