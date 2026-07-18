@@ -5,7 +5,7 @@ const DEFAULT_CONFIG = {
   column: 'A',
   includeInputs: true,
   visibleOnly: true,
-  valueMode: 'numeric',
+  valueMode: 'raw',
   excelFolder: 'tik/111',
   timer: { enabled: false, intervalSec: 60 },
 };

@@ -16,7 +16,7 @@ const DEFAULT_CONFIG = {
   column: 'A',
   includeInputs: true,
   visibleOnly: true,
-  valueMode: 'numeric',       // 'numeric' | 'raw'
+  valueMode: 'raw',           // 'raw' | 'numeric' — default keeps the number exactly as on the page
   excelFolder: 'tik/111',     // relative to the browser's Downloads folder (see README)
   timer: { enabled: false, intervalSec: 60 },
 };
