@@ -108,6 +108,7 @@ button:disabled { opacity: 0.6; cursor: default; }
 }
 .sel-count { font-size: 12px; color: var(--muted); }
 button.small { flex: 0 0 auto; padding: 7px 14px; font-size: 13px; }
+button.wide { flex: 1; }
 
 footer { margin-top: 12px; text-align: center; }
 footer a { color: var(--muted); font-size: 11px; }

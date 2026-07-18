@@ -243,6 +243,14 @@ chrome.alarms.onAlarm.addListener(async (alarm) => {
 
 // ---- messaging -----------------------------------------------------------
 
+// Persist the outcome, and — on success — snapshot the config used so the popup
+// can offer a one-click "same as last run".
+async function recordRun(res, config, timer) {
+  const patch = { lastRun: { ...res, at: Date.now(), timer } };
+  if (res.ok && config) patch.lastRunConfig = config;
+  await chrome.storage.local.set(patch);
+}
+
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   (async () => {
     try {
@@ -251,11 +259,11 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
       } else if (msg.type === 'writeValues') {
         const extracted = { title: msg.title, raw: msg.raw || [], values: msg.values || [] };
         const res = await writeExtracted(extracted, msg.config, true);
-        await chrome.storage.local.set({ lastRun: { ...res, at: Date.now(), timer: false } });
+        await recordRun(res, msg.config, false);
         sendResponse(res);
       } else if (msg.type === 'run') {
         const res = await runOnce(msg.tabId, msg.config, true);
-        await chrome.storage.local.set({ lastRun: { ...res, at: Date.now(), timer: false } });
+        await recordRun(res, msg.config, false);
         sendResponse(res);
       } else if (msg.type === 'startTimer') {
         await startTimer(msg.tabId, msg.config);

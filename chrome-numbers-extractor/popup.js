@@ -25,6 +25,9 @@ const els = {
   intervalSec: $('intervalSec'),
   runBtn: $('runBtn'),
   previewBtn: $('previewBtn'),
+  lastRunRow: $('lastRunRow'),
+  lastRunBtn: $('lastRunBtn'),
+  lastRunHint: $('lastRunHint'),
   timerToggle: $('timerToggle'),
   status: $('status'),
   preview: $('preview'),
@@ -121,13 +124,21 @@ for (const el of [els.column, els.valueMode, els.excelFolder, els.includeInputs,
 }
 els.timerEnabled.addEventListener('change', () => { syncUi(); persist(); });
 
-els.runBtn.addEventListener('click', async () => {
+function describeConfig(c) {
+  const dest = c.destination === 'excel' ? 'Excel' : 'Google Sheets';
+  const mode = c.valueMode === 'numeric' ? 'מנוקים' : 'טקסט מקורי';
+  return `${dest} · עמודה ${(c.column || 'A').toUpperCase()} · ${mode}`;
+}
+
+async function runNow(config) {
   const tab = await activeTab();
   if (!tab) return setStatus('err', 'לא נמצאה כרטיסייה פעילה.');
   els.runBtn.disabled = true;
+  els.lastRunBtn.disabled = true;
   setStatus('', 'מריץ…');
-  const res = await send({ type: 'run', tabId: tab.id, config: readConfig() });
+  const res = await send({ type: 'run', tabId: tab.id, config });
   els.runBtn.disabled = false;
+  els.lastRunBtn.disabled = false;
   if (!res || res.ok === false) {
     setStatus('err', `שגיאה: ${res?.error || 'לא ידועה'}`);
   } else if (res.count === 0) {
@@ -135,7 +146,25 @@ els.runBtn.addEventListener('click', async () => {
   } else {
     const link = res.url ? ` — <a href="${res.url}" target="_blank" rel="noopener">פתח</a>` : '';
     setStatus('ok', `✓ הוזנו ${res.count} מספרים → ${res.target}${link}`);
+    showLastRun(config); // reflect the just-run config immediately
   }
+}
+
+function showLastRun(cfg) {
+  els.lastRunRow.hidden = false;
+  els.lastRunHint.hidden = false;
+  els.lastRunHint.textContent = `אחרון: ${describeConfig(cfg)}`;
+  els.lastRunBtn._config = cfg;
+}
+
+els.runBtn.addEventListener('click', () => runNow(readConfig()));
+
+els.lastRunBtn.addEventListener('click', async () => {
+  const cfg = els.lastRunBtn._config;
+  if (!cfg) return;
+  applyConfig({ ...DEFAULT_CONFIG, ...cfg }); // restore the last-run settings into the form
+  persist();
+  await runNow(readConfig());
 });
 
 function rowCheckboxes() {
@@ -239,6 +268,7 @@ els.writeSelectedBtn.addEventListener('click', async () => {
   } else {
     const link = res.url ? ` — <a href="${res.url}" target="_blank" rel="noopener">פתח</a>` : '';
     setStatus('ok', `✓ הוזנו ${res.count} מספרים → ${res.target}${link}`);
+    showLastRun(readConfig());
   }
 });
 
@@ -279,7 +309,8 @@ els.timerToggle.addEventListener('click', async () => {
 // ---- init ----------------------------------------------------------------
 
 (async () => {
-  const store = await chrome.storage.local.get('config');
+  const store = await chrome.storage.local.get(['config', 'lastRunConfig']);
   applyConfig({ ...DEFAULT_CONFIG, ...(store.config || {}) });
+  if (store.lastRunConfig) showLastRun(store.lastRunConfig);
   await refreshTimerButton();
 })();
